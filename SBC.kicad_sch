@@ -1092,7 +1092,7 @@
 	)
 	(sheet
 		(at 243.84 166.37)
-		(size 46.99 26.67)
+		(size 85.09 26.67)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1199,6 +1199,116 @@
 				(justify left)
 			)
 			(uuid "c3eab60f-49c2-4730-a7ec-74718cb31edf")
+		)
+		(pin "PWRCTRL" input
+			(at 275.59 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26511437-d11f-48ca-9ff6-f596e35a71f0")
+		)
+		(pin "INTn" output
+			(at 279.4 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "444bbc95-2cd5-475e-8af5-90d9a585554a")
+		)
+		(pin "VBUS_HOST" output
+			(at 283.21 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "df914a80-efae-42e6-9345-707481d40e7c")
+		)
+		(pin "VDD_USB" output
+			(at 243.84 173.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5d782ff4-4aef-43ad-8674-19b025e61923")
+		)
+		(pin "BSTOUT" output
+			(at 243.84 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a57c4948-5312-463d-b1da-39eb64da77fd")
+		)
+		(pin "VBUS_OTG" output
+			(at 243.84 167.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "165925b3-6035-4efd-ae22-31506770cee2")
+		)
+		(pin "SCL" input
+			(at 288.29 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fadf58d7-f1bf-46ca-9d2c-6c9ea65b822c")
+		)
+		(pin "WAKEUP" input
+			(at 300.99 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9320c4e9-064d-4a3d-ae95-3ea825e3ea7f")
+		)
+		(pin "SDA" bidirectional
+			(at 290.83 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ede7b407-b093-471f-9b7e-a72ef531fb8f")
+		)
+		(pin "RSTn" input
+			(at 304.8 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "154b59ec-c08a-4e37-9bf8-d2c0115d45b4")
+		)
+		(pin "VTT_DDR" output
+			(at 328.93 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2c932c8-8970-44b2-bade-e0a2586505f0")
 		)
 		(instances
 			(project "SBC"

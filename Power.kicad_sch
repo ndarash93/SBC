@@ -4112,7 +4112,7 @@
 		)
 		(uuid "41f7f5c7-fb6a-4390-8b2b-5614d62f0016")
 	)
-	(hierarchical_label "VDD_LDO1"
+	(hierarchical_label "VTT_DDR"
 		(shape output)
 		(at 271.78 116.84 0)
 		(fields_autoplaced yes)
