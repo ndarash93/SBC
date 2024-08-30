@@ -347,7 +347,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 146.05) (xy 146.05 181.61)
+			(xy 146.05 143.51) (xy 146.05 181.61)
 		)
 		(stroke
 			(width 0)
@@ -527,6 +527,138 @@
 		(uuid "f27c4916-f4a0-46a1-9a8b-c4c746095308")
 		(property "Netclass" "A_BUS"
 			(at 260.35 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 242.57 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "400cb777-c121-4268-9939-39e2a60ef527")
+		(property "Netclass" "Diff_Pair"
+			(at 243.1796 74.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 242.57 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "494bc30d-109f-4532-a83e-814cc688da7d")
+		(property "Netclass" "Diff_Pair"
+			(at 243.1796 77.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 242.57 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52924bbf-4c7d-475b-a5ad-e3ac70bc03fd")
+		(property "Netclass" "Diff_Pair"
+			(at 243.1796 83.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 242.57 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73258a81-5461-4110-93ea-66d0d9b8a32c")
+		(property "Netclass" "Diff_Pair"
+			(at 243.1796 81.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 242.57 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "990698fe-0938-46c3-a05f-4fef8d15173e")
+		(property "Netclass" "Diff_Pair"
+			(at 243.1796 111.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 242.57 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9a6cb4a-1d36-4571-8cab-78c4b518591d")
+		(property "Netclass" "Diff_Pair"
+			(at 243.1796 109.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +1166,7 @@
 			)
 			(uuid "552717b7-6dfe-4481-a579-5d6cacbeb491")
 		)
-		(pin "VDD_RESET" output
+		(pin "DDR_RESET" output
 			(at 237.49 63.5 0)
 			(effects
 				(font
@@ -1042,7 +1174,7 @@
 				)
 				(justify right)
 			)
-			(uuid "84f391a6-2413-4935-9fad-5ffe8ca9e6b0")
+			(uuid "b99b3cf4-defc-4071-9d87-7e95b1fa153a")
 		)
 		(instances
 			(project "SBC"
@@ -1347,6 +1479,56 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "VDD" input
+			(at 146.05 143.51 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e20eab5-a816-43f0-88f2-ee2458120b1a")
+		)
+		(pin "CLK" input
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0c5ec22e-8dc4-40f0-9879-39802282c1fc")
+		)
+		(pin "CMD" bidirectional
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c50dce30-0777-4c54-9dc6-de6d9cc8ce0b")
+		)
+		(pin "NAND[0..7]" input
+			(at 156.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4000471-cf8f-41df-b03e-008b2129f429")
+		)
+		(pin "RESET" input
+			(at 156.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5fce4b60-a8e3-40be-a38e-98756d1a263d")
 		)
 		(instances
 			(project "SBC"

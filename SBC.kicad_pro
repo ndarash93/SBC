@@ -354,7 +354,13 @@
     "netclass_assignments": {
       "/A[0..15]": "A_BUS",
       "/DDR_BA[0..2]": "BUS",
-      "/DQ[0..15]": "DQ_BUS"
+      "/DQ[0..15]": "DQ_BUS",
+      "/MPU/DDR_CLKN": "Diff_Pair",
+      "/MPU/DDR_CLKP": "Diff_Pair",
+      "/MPU/DDR_DQS0_P": "Diff_Pair",
+      "/MPU/DDR_DQS1_P": "Diff_Pair",
+      "/MPU/DDR_DQS_N0": "Diff_Pair",
+      "/MPU/DDR_DQS_N1": "Diff_Pair"
     },
     "netclass_patterns": []
   },
