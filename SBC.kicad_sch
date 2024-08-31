@@ -1176,6 +1176,36 @@
 			)
 			(uuid "b99b3cf4-defc-4071-9d87-7e95b1fa153a")
 		)
+		(pin "SDMMC2_CLK" output
+			(at 196.85 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab3641a1-5aba-4c15-aff1-a4277c18e95e")
+		)
+		(pin "SDMMC2_CMD" bidirectional
+			(at 196.85 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3b6cad89-9208-44fc-ade0-254122b90e7d")
+		)
+		(pin "SDMMC2_D[0..7]" input
+			(at 196.85 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "269f1ada-1056-451b-bce5-494e38c65cdb")
+		)
 		(instances
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0"

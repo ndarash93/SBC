@@ -3311,6 +3311,7 @@
 	)
 	(label "NAND2"
 		(at 158.75 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3354,6 +3355,7 @@
 	)
 	(label "NAND7"
 		(at 158.75 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3441,6 +3443,7 @@
 	)
 	(label "NAND3"
 		(at 158.75 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3451,6 +3454,7 @@
 	)
 	(label "NAND4"
 		(at 158.75 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3461,6 +3465,7 @@
 	)
 	(label "NAND1"
 		(at 158.75 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3471,6 +3476,7 @@
 	)
 	(label "NAND6"
 		(at 158.75 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3492,6 +3498,7 @@
 	)
 	(label "NAND0"
 		(at 158.75 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3502,6 +3509,7 @@
 	)
 	(label "NAND5"
 		(at 158.75 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
