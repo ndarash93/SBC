@@ -2088,6 +2088,10 @@
 		(color 0 0 0 0)
 		(uuid "eb69210c-71d6-4039-8bc1-56fd7a33d02f")
 	)
+	(no_connect
+		(at 63.5 78.74)
+		(uuid "01832372-ac21-4fab-9529-d8da8307a4b8")
+	)
 	(wire
 		(pts
 			(xy 26.67 166.37) (xy 26.67 168.91)
@@ -2937,16 +2941,6 @@
 			(type default)
 		)
 		(uuid "89069055-6ec7-45f3-b753-cf6700acf82d")
-	)
-	(wire
-		(pts
-			(xy 50.8 78.74) (xy 63.5 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8d30c1-74cd-43f6-b64d-83be223f29e9")
 	)
 	(wire
 		(pts
