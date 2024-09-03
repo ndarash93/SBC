@@ -9383,6 +9383,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 340.36) (xy 314.96 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605b9d4f-0248-4e5c-b7d8-3eea1e74ef8f")
+	)
+	(wire
+		(pts
 			(xy 419.1 317.5) (xy 431.8 317.5)
 		)
 		(stroke
@@ -10173,6 +10183,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 92.71) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a838e538-8576-4d9a-bf44-69723ce4139a")
+	)
+	(wire
+		(pts
 			(xy 219.71 308.61) (xy 228.6 308.61)
 		)
 		(stroke
@@ -10510,6 +10530,16 @@
 			(type default)
 		)
 		(uuid "ba89b8d6-8f4e-42ea-9e6f-a71d3e14eacc")
+	)
+	(wire
+		(pts
+			(xy 322.58 340.36) (xy 346.71 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9a7702-66c8-46ab-bf6c-54fb5a18cd5b")
 	)
 	(wire
 		(pts
@@ -11483,7 +11513,7 @@
 	)
 	(text "MAC"
 		(exclude_from_sim no)
-		(at 323.596 336.804 0)
+		(at 326.644 328.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11510,6 +11540,17 @@
 			)
 		)
 		(uuid "9f272814-8ff7-4c4e-8786-7eba5b776523")
+	)
+	(label "ETH_CLK_R"
+		(at 292.1 340.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00b451dd-6ec1-41aa-b52b-d6eab051161a")
 	)
 	(label "OSC_IN"
 		(at 440.69 172.72 180)
@@ -11807,6 +11848,17 @@
 			(justify right bottom)
 		)
 		(uuid "2535f63b-08ca-4b34-b8ff-7505a8a77861")
+	)
+	(label "ETH_CLK_R"
+		(at 88.9 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "255c8d89-b517-48fb-a06b-11a523ecf0bb")
 	)
 	(label "VDD"
 		(at 393.7 292.1 0)
@@ -14009,6 +14061,18 @@
 			(justify left)
 		)
 		(uuid "a6a7f252-fecf-4cc8-8f92-201c81ab8703")
+	)
+	(hierarchical_label "ETH_CLK"
+		(shape output)
+		(at 346.71 340.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a76c0f01-ec92-4d48-a2e6-d98efc771f7b")
 	)
 	(hierarchical_label "PWR_ON"
 		(shape output)
@@ -17725,6 +17789,84 @@
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
 					(reference "C4002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:R")
+		(at 318.77 340.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52b500e0-c210-43ba-88be-bc62019a95c0")
+		(property "Reference" "R4002"
+			(at 317.4999 337.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22"
+			(at 320.0399 337.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 335.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 318.77 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" "1%"
+			(at 322.326 337.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "74cd027b-0f9e-4f05-8848-1e1c720d2401")
+		)
+		(pin "1"
+			(uuid "562a296c-ca49-425c-85df-f8609f064017")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
+					(reference "R4002")
 					(unit 1)
 				)
 			)
