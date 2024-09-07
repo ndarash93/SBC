@@ -290,7 +290,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 153.67) (xy 214.63 142.24)
+			(xy 212.09 153.67) (xy 212.09 142.24)
 		)
 		(stroke
 			(width 0)
@@ -360,7 +360,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 153.67) (xy 214.63 153.67)
+			(xy 294.64 153.67) (xy 212.09 153.67)
 		)
 		(stroke
 			(width 0)
@@ -610,6 +610,26 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 151.13) (xy 214.63 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912099f4-2bba-45e9-882a-13d81994bdd4")
+	)
+	(wire
+		(pts
+			(xy 214.63 142.24) (xy 214.63 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9451d57a-83bb-4ab7-a208-d97e090d8813")
+	)
+	(wire
+		(pts
 			(xy 176.53 127) (xy 179.07 127)
 		)
 		(stroke
@@ -757,6 +777,16 @@
 			(type default)
 		)
 		(uuid "b344104a-71c3-42d2-8b4e-ddef1d2ff1e0")
+	)
+	(wire
+		(pts
+			(xy 297.18 166.37) (xy 297.18 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b10dd3-d945-4abe-82ac-fe3de8b32cc0")
 	)
 	(wire
 		(pts
@@ -1900,7 +1930,7 @@
 			(uuid "c4bc6019-981f-49f1-9dce-b6d687a2c0e3")
 		)
 		(pin "VBUS_OTG" input
-			(at 214.63 142.24 270)
+			(at 212.09 142.24 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,6 +2158,16 @@
 				(justify left)
 			)
 			(uuid "cf0befc2-8cb2-4e69-b3ce-5a09b73798c6")
+		)
+		(pin "VBUS_HOST" output
+			(at 214.63 142.24 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "13409b53-2ee8-42c5-a086-9626bb80eb53")
 		)
 		(instances
 			(project "SBC"
