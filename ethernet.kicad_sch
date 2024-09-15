@@ -29,7 +29,7 @@
 				)
 			)
 			(property "Footprint" "ARJM11C7-114-BA-EW2_ABR"
-				(at 36.576 -25.146 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,7 +39,7 @@
 				)
 			)
 			(property "Datasheet" "ARJM11C7-114-BA-EW2"
-				(at 35.56 -22.606 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -386,7 +386,7 @@
 				)
 			)
 			(symbol "ARJM11C7-114-BA-EW2_1_1"
-				(pin input line
+				(pin unspecified line
 					(at 20.32 -27.94 90)
 					(length 7.62)
 					(name "SH"
@@ -4779,115 +4779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ARJM11C7_114_BA_EW2:ARJM11C7-114-BA-EW2")
-		(at 204.47 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0481b589-d886-4bd9-bc72-bf5a44e18437")
-		(property "Reference" "U8"
-			(at 224.79 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ARJM11C7-114-BA-EW2"
-			(at 224.79 111.76 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.046 144.526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "ARJM11C7-114-BA-EW2"
-			(at 240.03 141.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "66819911-fe37-4beb-bcf1-3c81737e2566")
-		)
-		(pin "9"
-			(uuid "0694c923-e074-44c4-851a-7a5087063867")
-		)
-		(pin "4"
-			(uuid "d86ebcbc-c238-4bfe-9de7-db1a1629f593")
-		)
-		(pin "10"
-			(uuid "8954269a-7bb4-4473-8f22-050eabea4d1f")
-		)
-		(pin "6"
-			(uuid "602e908a-6ba5-4c35-898d-4ee7154a5b69")
-		)
-		(pin "8"
-			(uuid "e437cdbb-8b86-40c4-bc59-c96c58a2c0ff")
-		)
-		(pin "2"
-			(uuid "cdc2185e-13ff-41c9-9185-cd478e171fa7")
-		)
-		(pin "11"
-			(uuid "9e640a19-4287-48f0-ac3e-83d92bf1db1e")
-		)
-		(pin "3"
-			(uuid "1ec456f7-c196-48f5-bd74-4138bcbd6e1d")
-		)
-		(pin "13"
-			(uuid "c311db65-a00b-4fd9-9952-35e3fc7af703")
-		)
-		(pin "14"
-			(uuid "433ea094-d485-46ba-8871-be9c393406d5")
-		)
-		(pin "SH"
-			(uuid "093bda74-c65c-41a9-b984-a0423d3a8040")
-		)
-		(pin "5"
-			(uuid "ecf0fe8e-18e6-4b0a-aef0-ba7514a05cdd")
-		)
-		(pin "7"
-			(uuid "87db0f97-8267-4e3f-9abe-a97da430d6f5")
-		)
-		(pin "1"
-			(uuid "4e4cf546-d045-46af-93f2-d5ba125bd333")
-		)
-		(instances
-			(project ""
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/df814d64-f889-41f0-8f1a-74d7f134d61e"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Capacitor:C")
 		(at 180.34 154.94 0)
 		(mirror y)
@@ -6301,6 +6192,115 @@
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/df814d64-f889-41f0-8f1a-74d7f134d61e"
 					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ARJM11C7_114_BA_EW2:ARJM11C7-114-BA-EW2")
+		(at 204.47 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a623b38-0ab4-4932-8fd1-4030a00eb966")
+		(property "Reference" "U8"
+			(at 224.79 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ARJM11C7-114-BA-EW2"
+			(at 224.79 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ARJM11C7-114-BA-EW2_ABR"
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "ARJM11C7-114-BA-EW2"
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9e0f80ab-cd82-4956-b4d3-658e45b0d92e")
+		)
+		(pin "12"
+			(uuid "da17c542-5419-4261-97f0-3f1ab39b885d")
+		)
+		(pin "14"
+			(uuid "964f53d7-7806-45f6-94a2-ae0277a5f657")
+		)
+		(pin "2"
+			(uuid "548eb4e5-cb1c-461e-81bb-0bbaaf4d030a")
+		)
+		(pin "6"
+			(uuid "0b70fe2b-c707-4577-b856-88f4e14848a2")
+		)
+		(pin "11"
+			(uuid "511bb52f-60fc-48cf-8a78-fb532eb26c67")
+		)
+		(pin "4"
+			(uuid "eaa2d9c8-1e84-490a-ac3f-998708ed79de")
+		)
+		(pin "10"
+			(uuid "2a9729cc-561c-43a0-b96e-6f69e1cad563")
+		)
+		(pin "5"
+			(uuid "1744e1a6-4b54-4c1a-bd44-3e7e05041fa2")
+		)
+		(pin "13"
+			(uuid "a9e9bda0-57e3-4138-a044-04a71fa239ee")
+		)
+		(pin "1"
+			(uuid "59b82acc-9fb1-4e0b-bd1c-c1e11f476483")
+		)
+		(pin "SH"
+			(uuid "9dafe560-0b45-48bc-9d31-d6bfe3662804")
+		)
+		(pin "8"
+			(uuid "5c485bd8-1390-455c-9a4f-067b7580578f")
+		)
+		(pin "3"
+			(uuid "62f41850-ea85-4c39-8344-a77f72bb753d")
+		)
+		(pin "9"
+			(uuid "b5526b13-f5c1-4ba4-b1fc-6ceb806d349e")
+		)
+		(instances
+			(project ""
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/df814d64-f889-41f0-8f1a-74d7f134d61e"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -8563,7 +8563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 92.71 30.988 90)
 			(effects
 				(font
@@ -9693,7 +9693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOT23-6L_STM"
 			(at 218.44 31.75 0)
 			(effects
 				(font

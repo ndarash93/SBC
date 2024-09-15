@@ -5501,7 +5501,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 240.03 82.55 0)
 			(effects
 				(font
@@ -7294,7 +7294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 240.03 91.44 0)
 			(effects
 				(font
@@ -7526,7 +7526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:WFQFN44_5X6_STM"
 			(at 63.5 38.1 0)
 			(effects
 				(font
@@ -9073,7 +9073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 240.03 100.33 0)
 			(effects
 				(font

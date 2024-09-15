@@ -7808,7 +7808,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 46.228 167.64 0)
 			(effects
 				(font
@@ -7972,7 +7972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:TW-BGA96L_9X13X1.2_ISI"
 			(at 91.44 27.94 0)
 			(effects
 				(font
@@ -8550,7 +8550,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 150.368 185.42 0)
 			(effects
 				(font
