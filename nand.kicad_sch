@@ -2843,7 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.3918 71.0847) (xy 256.5518 71.0847)
+			(xy 243.84 69.85) (xy 256.54 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3010,6 +3010,16 @@
 			(type default)
 		)
 		(uuid "87bcb8ff-c9e2-4480-a288-1cd0de3949c2")
+	)
+	(wire
+		(pts
+			(xy 256.54 77.47) (xy 256.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8855ed9f-f5ae-48b9-b907-b83b19e30714")
 	)
 	(wire
 		(pts
@@ -3372,13 +3382,13 @@
 		(uuid "73e9452d-0e33-4554-8bd2-0596213ed703")
 	)
 	(label "VDDI"
-		(at 256.5518 71.0847 180)
+		(at 243.84 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "920dab30-20c3-4cd1-9eff-885a15f69eb0")
 	)
@@ -3529,6 +3539,72 @@
 			(justify left)
 		)
 		(uuid "fd591fa7-5da3-4205-b4d4-7b3748e696d9")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01fe5047-4b74-4de9-b1f3-4874cf0d6bf8")
+		(property "Reference" "#PWR0218"
+			(at 256.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f475596-faf4-4f57-b059-831e641b3d8b")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/dbc4538f-6782-4334-8773-c54462e4bd8b"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:R")
@@ -3688,7 +3764,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C")
-		(at 256.54 74.93 0)
+		(at 256.54 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3696,7 +3772,7 @@
 		(dnp no)
 		(uuid "4c7d44f1-8af5-4f8a-b510-44e7c9d8b1a9")
 		(property "Reference" "C59"
-			(at 260.604 73.914 0)
+			(at 260.604 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3781,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 260.604 75.946 0)
+			(at 260.604 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3790,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 257.5052 86.36 0)
+			(at 257.5052 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 91.44 0)
+			(at 257.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3808,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 256.54 93.98 0)
+			(at 256.54 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3817,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 256.54 88.9 0)
+			(at 256.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3826,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 260.35 76.1999 0)
+			(at 260.35 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,72 +3844,6 @@
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/dbc4538f-6782-4334-8773-c54462e4bd8b"
 					(reference "C59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 256.5518 78.7047 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ca0d0a7-13a2-4d90-8dc2-956502206e78")
-		(property "Reference" "#PWR0218"
-			(at 256.5518 85.0547 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 256.5518 83.7847 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.5518 78.7047 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.5518 78.7047 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.5518 78.7047 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6215587-661a-4108-89d9-d4081730bddb")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/dbc4538f-6782-4334-8773-c54462e4bd8b"
-					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
