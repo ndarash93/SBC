@@ -20559,6 +20559,17 @@
 		)
 		(uuid "009eea97-b1e1-429d-9f9d-ef36e0c19639")
 	)
+	(text "Consider changing to SWD interface"
+		(exclude_from_sim no)
+		(at 417.576 76.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 255 0 1)
+			)
+		)
+		(uuid "0a9916d6-e140-4edb-bc48-5c23aac1650d")
+	)
 	(text "OSC"
 		(exclude_from_sim no)
 		(at 416.052 152.4 0)
@@ -33381,7 +33392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_DIN:DIN41612_B3_2x10_Male_Horizontal_THT"
+		(property "Footprint" "Connector_DIN:DIN41612_Q3_2x10_Male_Vertical_THT"
 			(at 510.54 97.79 0)
 			(effects
 				(font
