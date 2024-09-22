@@ -2580,12 +2580,6 @@
 		(uuid "6fce90de-446a-4441-a3f4-7c3e7d3437c6")
 	)
 	(junction
-		(at 256.54 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81bd80a1-9fae-4951-9a9e-62607a0a2186")
-	)
-	(junction
 		(at 104.14 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4450,16 +4444,6 @@
 			(type default)
 		)
 		(uuid "c9b71e77-72eb-4a26-bc81-601cb37139ec")
-	)
-	(wire
-		(pts
-			(xy 256.54 22.86) (xy 256.54 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca735898-a8c8-4a0f-b579-ba610baf51e9")
 	)
 	(wire
 		(pts
@@ -7901,73 +7885,6 @@
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/62ec818c-3f4b-42f5-b6cb-504a45fcd8bf"
 					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:VIN")
-		(at 256.54 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c249ef5-bdcd-420d-94e4-9498fe5f0f23")
-		(property "Reference" "#PWR08"
-			(at 256.54 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN"
-			(at 256.54 19.05 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VIN\""
-			(at 256.54 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06474eed-67f2-4e28-ab8f-01f730020563")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/62ec818c-3f4b-42f5-b6cb-504a45fcd8bf"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
