@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "memory skew match"
+	(condition "A.NetClass == 'Inner_55_SE'")
+	(constraint length (min 14.6mm))
+	(constraint skew (max 1.0mm)))

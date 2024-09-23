@@ -25504,6 +25504,17 @@
 			(justify left)
 		)
 		(uuid "d0e07bfa-8f35-474b-878b-3739a1534f92")
+		(property "Target_Skew" "1.0mm"
+			(at 234.95 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "VDD_DDR"
 		(shape input)
