@@ -1157,7 +1157,7 @@
 			(justify left bottom)
 		)
 		(uuid "42ce241f-2919-4cee-8306-b453175af306")
-		(property "Netclass" "Inner_55_SE"
+		(property "Netclass" "DDR_DATA"
 			(at 238.252 124.206 0)
 			(effects
 				(font
@@ -1201,7 +1201,7 @@
 			(justify left bottom)
 		)
 		(uuid "97c5829d-b869-4fd7-b277-a35e796b5586")
-		(property "Netclass" "Inner_55_SE"
+		(property "Netclass" "DDR_DATA"
 			(at 238.252 129.286 0)
 			(effects
 				(font
@@ -1245,7 +1245,7 @@
 			(justify left bottom)
 		)
 		(uuid "a10f4e42-43ff-4e2c-ac1f-b46628360f99")
-		(property "Netclass" "Inner_55_SE"
+		(property "Netclass" "DDR_DATA"
 			(at 238.252 134.366 0)
 			(effects
 				(font
@@ -1548,16 +1548,6 @@
 			)
 			(uuid "1e0bb448-69da-4ec0-bdda-0de95abffb95")
 		)
-		(pin "DDR_BA[0..2]" input
-			(at 281.94 124.46 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7c47036c-0b70-499b-8841-ac02c01ff7d8")
-		)
 		(pin "CAS" input
 			(at 281.94 96.52 180)
 			(effects
@@ -1727,6 +1717,16 @@
 				(justify left)
 			)
 			(uuid "f16f21a5-38e8-47d9-b6fe-77ba1acb434f")
+		)
+		(pin "DDR_BA[0..2]" input
+			(at 281.94 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19d2b64c-0b83-499b-bb55-4d6d3717dda4")
 		)
 		(instances
 			(project "SBC"
