@@ -5433,6 +5433,7 @@
 	)
 	(label "DDR_BA1"
 		(at 50.8 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6169,6 +6170,7 @@
 	)
 	(label "DDR_BA0"
 		(at 50.8 72.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6223,6 +6225,7 @@
 	)
 	(label "DDR_BA2"
 		(at 50.8 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6230,6 +6233,17 @@
 			(justify right bottom)
 		)
 		(uuid "f0ab09b5-9355-4c12-a1a2-ecb19fc06348")
+	)
+	(label "VDD"
+		(at 80.01 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1dfae48-9d85-4d36-80f5-6e31304e3539")
 	)
 	(label "WEn"
 		(at 156.21 111.76 180)

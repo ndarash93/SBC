@@ -21300,6 +21300,7 @@
 	)
 	(label "DDR_BA1"
 		(at 196.85 275.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24104,6 +24105,7 @@
 	)
 	(label "DDR_BA0"
 		(at 196.85 278.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24169,6 +24171,7 @@
 	)
 	(label "DDR_BA2"
 		(at 196.85 273.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
