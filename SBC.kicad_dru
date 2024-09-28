@@ -2,24 +2,15 @@
 
 (rule "DDR Address Net Length"
 	(condition "A.NetClass == 'DDR_ADDRESS'")
-	(constraint length (min 18mm) (max 19mm) (opt 18.5mm)))
-
-(rule "DDR Clock Skew"
-	(condition "A.NetClass == 'DDR_CLOCK' && AB.isCoupledDiffPair()")
-	(constraint length (min 18mm) (max 19mm))
+	(constraint length (min 19.5mm) (max 20.5mm) (opt 20mm))
 	(constraint skew (min -0.5mm) (max 0.5mm) (opt 0mm)))
 
 (rule "DDR Data Net Length"
 	(condition "A.NetClass == 'DDR_DATA_U'")
-	(constraint length (min 49mm) (max 50mm) (opt 49.5mm))
+	(constraint length (min 50.5mm) (max 51.5mm) (opt 51mm))
 	(constraint skew (min -0.5mm) (max 0.5mm) (opt 0mm)))
 
 (rule "DDR Data Net Length"
 	(condition "A.NetClass == 'DDR_DATA_L'")
 	(constraint length (min 34mm) (max 35mm) (opt 34.5mm))
-	(constraint skew (min -0.5mm) (max 0.5mm) (opt 0mm)))
-
-(rule "DDR Data Strobe Skew"
-	(condition "A.NetClass == 'DQS' && AB.isCoupledDiffPair()")
-	(constraint length (min 49mm) (max 50mm))
 	(constraint skew (min -0.5mm) (max 0.5mm) (opt 0mm)))

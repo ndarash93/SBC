@@ -1138,28 +1138,6 @@
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
-		(at 237.49 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42ce241f-2919-4cee-8306-b453175af306")
-		(property "Netclass" "DDR_ADDRESS"
-			(at 238.252 124.206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left bottom)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 0.0254)
-		(shape round)
 		(at 237.49 137.16 0)
 		(effects
 			(font
@@ -1204,6 +1182,28 @@
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
+		(at 233.68 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91046235-da90-4ce3-ab07-fc599e207477")
+		(property "Netclass" "DDR_DATA_U"
+			(at 234.442 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
 		(at 233.68 113.03 0)
 		(effects
 			(font
@@ -1226,7 +1226,7 @@
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
-		(at 237.49 129.54 0)
+		(at 233.68 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1235,7 +1235,7 @@
 		)
 		(uuid "97c5829d-b869-4fd7-b277-a35e796b5586")
 		(property "Netclass" "DDR_ADDRESS"
-			(at 238.252 129.286 0)
+			(at 234.442 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,16 +1314,16 @@
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
-		(at 233.68 120.65 0)
+		(at 233.68 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "bb103cfd-555d-4452-95e9-5cdb1bea2b1f")
-		(property "Netclass" "DQS"
-			(at 234.2896 120.6246 0)
+		(uuid "b43f4cf8-10dd-4c9f-8369-c6b5c572e1a2")
+		(property "Netclass" "DDR_ADDRESS"
+			(at 234.442 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,16 +1336,16 @@
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
-		(at 233.747 118.11 0)
+		(at 233.68 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f3a9f273-0e3d-488c-b351-37b0064e7b8e")
-		(property "Netclass" "Inner_100_Diff"
-			(at 234.3566 118.0846 0)
+		(uuid "c33660db-1cfb-4238-9d91-ed8aad7d62b3")
+		(property "Netclass" "DDR_DATA_L"
+			(at 234.442 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)

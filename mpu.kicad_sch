@@ -20739,6 +20739,7 @@
 	)
 	(label "DQ4"
 		(at 196.85 191.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20980,6 +20981,7 @@
 	)
 	(label "DQ7"
 		(at 196.85 184.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21309,6 +21311,7 @@
 	)
 	(label "DQ9"
 		(at 196.85 179.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21330,6 +21333,7 @@
 	)
 	(label "DQ5"
 		(at 196.85 189.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21582,6 +21586,7 @@
 	)
 	(label "DQ6"
 		(at 196.85 186.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22923,6 +22928,7 @@
 	)
 	(label "DQ14"
 		(at 196.85 166.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22955,6 +22961,7 @@
 	)
 	(label "DQ2"
 		(at 196.85 196.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23097,6 +23104,7 @@
 	)
 	(label "DQ0"
 		(at 196.85 201.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23250,6 +23258,7 @@
 	)
 	(label "DQ3"
 		(at 196.85 194.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23348,6 +23357,7 @@
 	)
 	(label "DQ13"
 		(at 196.85 168.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23457,6 +23467,7 @@
 	)
 	(label "DQ11"
 		(at 196.85 173.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23907,6 +23918,7 @@
 	)
 	(label "DQ1"
 		(at 196.85 199.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24379,6 +24391,7 @@
 	)
 	(label "DQ12"
 		(at 196.85 171.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24642,6 +24655,7 @@
 	)
 	(label "DQ8"
 		(at 196.85 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24806,6 +24820,7 @@
 	)
 	(label "DQ10"
 		(at 196.85 176.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24882,6 +24897,7 @@
 	)
 	(label "DQ15"
 		(at 196.85 163.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
