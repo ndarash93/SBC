@@ -7,10 +7,15 @@
 
 (rule "DDR Data Net Length"
 	(condition "A.NetClass == 'DDR_DATA_U'")
-	(constraint length (min 50.5mm) (max 51.5mm) (opt 51mm))
+	(constraint length (min 44mm) (max 45mm) (opt 44.5mm))
 	(constraint skew (min -0.5mm) (max 0.5mm) (opt 0mm)))
 
 (rule "DDR Data Net Length"
 	(condition "A.NetClass == 'DDR_DATA_L'")
-	(constraint length (min 34mm) (max 35mm) (opt 34.5mm))
+	(constraint length (min 28.5mm) (max 29.5mm) (opt 29mm))
+	(constraint skew (min -0.5mm) (max 0.5mm) (opt 0mm)))
+
+(rule "EMMC Data Net Length"
+	(condition "A.NetClass == 'EMMC'")
+	(constraint length (min 49.5mm) (max 50.5mm) (opt 50mm))
 	(constraint skew (min -0.5mm) (max 0.5mm) (opt 0mm)))
