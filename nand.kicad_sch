@@ -1936,6 +1936,187 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Capacitor:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2380,10 +2561,22 @@
 		(uuid "05829ecc-99c3-4eba-9958-14c13fae38dc")
 	)
 	(junction
+		(at 215.9 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05d55453-6d1e-46d4-8f0f-bd9613fe79b3")
+	)
+	(junction
 		(at 158.75 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b2a3fa4-f7ca-4df6-91fc-b2cef55f4a85")
+	)
+	(junction
+		(at 193.04 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16547e36-d926-4a3d-995c-3dadf29b6e2c")
 	)
 	(junction
 		(at 158.75 41.91)
@@ -2697,6 +2890,16 @@
 		)
 		(uuid "0d784772-aeae-4e9e-be36-e9e27ca1759f")
 	)
+	(wire
+		(pts
+			(xy 203.2 139.7) (xy 215.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa1b747-e40f-4390-a504-784bb7c90d73")
+	)
 	(bus
 		(pts
 			(xy 168.91 106.68) (xy 168.91 109.22)
@@ -2706,6 +2909,16 @@
 			(type default)
 		)
 		(uuid "1b7cbe05-14fb-4fa8-95ef-ec3edbedf287")
+	)
+	(wire
+		(pts
+			(xy 203.2 147.32) (xy 215.9 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be84932-6561-4ce5-ba2a-6cf9bfcea6a6")
 	)
 	(wire
 		(pts
@@ -2949,7 +3162,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 130.81) (xy 256.54 130.81)
+			(xy 180.34 114.3) (xy 193.04 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3119,6 +3332,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 106.68) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a040f4-f9c6-4b8b-a1bf-abaaf4481abd")
+	)
+	(wire
+		(pts
 			(xy 158.75 25.4) (xy 175.26 25.4)
 		)
 		(stroke
@@ -3246,6 +3469,16 @@
 			(type default)
 		)
 		(uuid "d7cf1bb5-3329-41d8-9d49-bdee9943ae52")
+	)
+	(wire
+		(pts
+			(xy 193.04 114.3) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadf4b14-7a26-4c91-a7c0-5ed088c78cfa")
 	)
 	(wire
 		(pts
@@ -3384,7 +3617,7 @@
 		(uuid "30273153-a319-460e-9e1d-1ce7f749a9b6")
 	)
 	(label "DS"
-		(at 243.84 130.81 0)
+		(at 180.34 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3393,6 +3626,17 @@
 			(justify left bottom)
 		)
 		(uuid "35062873-8091-4a58-8299-c23f2ce2bb64")
+	)
+	(label "RESET"
+		(at 168.91 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3de97e56-aaf9-41e8-a4bd-98e87c30589d")
 	)
 	(label "DS"
 		(at 163.83 91.44 180)
@@ -3405,6 +3649,17 @@
 		)
 		(uuid "47565f28-86ae-40b6-a58a-e049527527d2")
 	)
+	(label "RESET"
+		(at 203.2 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c51e3c7-4252-403f-b371-b09ea9ba68f2")
+	)
 	(label "VDD"
 		(at 243.84 116.84 0)
 		(fields_autoplaced yes)
@@ -3415,6 +3670,17 @@
 			(justify left bottom)
 		)
 		(uuid "585822a2-47f5-44aa-bf55-fb8cf71590e2")
+	)
+	(label "VDD"
+		(at 180.34 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c3ed14d-f48a-4f83-9a6d-41951b273152")
 	)
 	(label "NAND2"
 		(at 158.75 99.06 0)
@@ -3459,6 +3725,17 @@
 			(justify left bottom)
 		)
 		(uuid "73e9452d-0e33-4554-8bd2-0596213ed703")
+	)
+	(label "VDD"
+		(at 203.2 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "845f01b4-3b72-4162-97b4-49bb6bd618e0")
 	)
 	(label "VDDI"
 		(at 241.3 69.85 0)
@@ -3561,7 +3838,7 @@
 	)
 	(hierarchical_label "DS"
 		(shape output)
-		(at 163.83 91.44 0)
+		(at 217.17 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3569,7 +3846,7 @@
 			)
 			(justify left)
 		)
-		(uuid "13ee589a-c47a-4d8d-8387-0fb9fc571d4e")
+		(uuid "2b4c2da8-6339-410a-91e6-ef119315eb54")
 	)
 	(hierarchical_label "VDD"
 		(shape input)
@@ -4038,6 +4315,85 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:R")
+		(at 215.9 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39cb3a8f-b473-4a2f-9961-163f9f3d97de")
+		(property "Reference" "R5003"
+			(at 218.44 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 218.44 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 220.472 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" "5%"
+			(at 218.694 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d312fcc-f0e3-4dd8-b157-82ca6a090c82")
+		)
+		(pin "1"
+			(uuid "a300248f-8324-4a7c-a913-d7a560913331")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/dbc4538f-6782-4334-8773-c54462e4bd8b"
+					(reference "R5003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:R")
 		(at 256.54 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4110,6 +4466,219 @@
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/dbc4538f-6782-4334-8773-c54462e4bd8b"
 					(reference "R119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eae4eb6-1783-4cb8-9ada-d244a8c0c6aa")
+		(property "Reference" "#PWR05001"
+			(at 215.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f71d00c3-22dc-460f-8f0a-2488848fdf58")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/dbc4538f-6782-4334-8773-c54462e4bd8b"
+					(reference "#PWR05001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:R")
+		(at 193.04 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "5c64c964-dc14-4beb-9e7d-236b27ece746")
+		(property "Reference" "R5002"
+			(at 195.58 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 195.58 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 197.612 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" "5%"
+			(at 195.834 114.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7076e9e-83f5-4b1b-aa26-3127fe490ff2")
+		)
+		(pin "1"
+			(uuid "c23ec555-d520-4dac-8e66-8cadc9f4b2b7")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/dbc4538f-6782-4334-8773-c54462e4bd8b"
+					(reference "R5002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 213.36 114.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64946a95-1b63-4c3e-85fd-a9f18a81a2c5")
+		(property "Reference" "JP5001"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 213.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NO"
+			(at 213.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 213.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9eacd67-d62f-4aeb-9641-d5b98358447c")
+		)
+		(pin "2"
+			(uuid "78403dd4-b37e-430f-b0ab-c13f3c08dc12")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/dbc4538f-6782-4334-8773-c54462e4bd8b"
+					(reference "JP5001")
 					(unit 1)
 				)
 			)
@@ -4196,7 +4765,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:R")
-		(at 256.54 134.62 90)
+		(at 193.04 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4204,7 +4773,7 @@
 		(dnp no)
 		(uuid "758658a7-074d-42e9-b77c-803bf9aeaee5")
 		(property "Reference" "R145"
-			(at 259.08 133.3499 90)
+			(at 195.58 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4782,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 259.08 135.8899 90)
+			(at 195.58 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4791,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 261.112 134.62 0)
+			(at 197.612 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +4800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 135.89 0)
+			(at 201.93 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,7 +4809,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 267.97 134.62 0)
+			(at 204.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +4818,7 @@
 			)
 		)
 		(property "Precision" "5%"
-			(at 259.334 138.176 90)
+			(at 195.834 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,6 +5292,85 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Resistor:R")
+		(at 215.9 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b2259b88-037e-49a3-bde2-6ae4a1c893c8")
+		(property "Reference" "R5001"
+			(at 218.44 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 218.44 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 220.472 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" "5%"
+			(at 218.694 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f495ba01-4eb1-4d76-93fa-442ef8e31341")
+		)
+		(pin "1"
+			(uuid "72d2338c-7ecb-4ce7-b337-7af02f3bea4f")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/dbc4538f-6782-4334-8773-c54462e4bd8b"
+					(reference "R5001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 158.75 173.99 0)
 		(unit 1)
@@ -4856,7 +5504,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 138.43 0)
+		(at 193.04 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4865,7 +5513,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9a9270f-9588-47d7-88a3-ae3a11a285f9")
 		(property "Reference" "#PWR0255"
-			(at 256.54 144.78 0)
+			(at 193.04 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +5522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 143.51 0)
+			(at 193.04 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +5530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 138.43 0)
+			(at 193.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +5539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 138.43 0)
+			(at 193.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +5548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 138.43 0)
+			(at 193.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

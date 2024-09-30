@@ -14235,7 +14235,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 125.73) (xy 80.01 125.73)
+			(xy 63.5 125.73) (xy 80.01 125.73)
 		)
 		(stroke
 			(width 0)
@@ -22511,17 +22511,6 @@
 		)
 		(uuid "6ec404f9-617a-4fab-aa79-61d5f604ef45")
 	)
-	(label "PE4"
-		(at 69.85 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ed20c68-42d1-4215-ba33-a11976aa8d93")
-	)
 	(label "ETH1_MDIO"
 		(at 58.42 303.53 0)
 		(fields_autoplaced yes)
@@ -23049,6 +23038,17 @@
 			(justify right bottom)
 		)
 		(uuid "89072d76-0628-4333-843f-e59e180a8fa7")
+	)
+	(label "SDMMC2_STROBE"
+		(at 63.5 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a67e855-58a3-4a99-bc44-7c4bf9318a29")
 	)
 	(label "ETH1_MDC_R"
 		(at 312.42 130.81 0)
@@ -24930,17 +24930,6 @@
 			(justify left bottom)
 		)
 		(uuid "f755ef92-f5e4-43bc-94f3-8fe2b937a685")
-	)
-	(label "PE4"
-		(at 95.25 370.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f7f359bf-c51a-4af8-bca8-014050bbf386")
 	)
 	(label "PE15"
 		(at 69.85 97.79 0)

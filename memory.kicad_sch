@@ -7777,7 +7777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TW-BGA96L_9X13X1.2_ISI"
+		(property "Footprint" "footprints:TW-BGA96L_9X13X1.2_ISI"
 			(at 97.282 23.876 0)
 			(effects
 				(font
