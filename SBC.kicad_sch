@@ -1108,6 +1108,40 @@
 		)
 		(uuid "fc6d0ea0-d6de-4405-abc6-2c69c9230d5f")
 	)
+	(text_box "Trace width and spacing requirements:\n\n(Differential)\n1. 90 Ohm outer layer     -> W=0.1422mm, S=0.0994\n2. 100 Ohm outer layer    -> W=0.1095, S=0.0994\n3. 90 Ohm inner layer     -> W=0.1328, S=0.0994\n4. 100 Ohm innder layer   -> W=0.1029, S=0.0994\n\n(Single Ended)\n1. 45 Ohm outer layer     -> W=0.1542, T=0.0994\n2. 50 Ohm outer layer     -> W=0.1196, T=0.0994\n3. 55 Ohm outer layer     -> W=0.0922, T=0.0994\n4. 45 Ohm inner layer     -> W=0.1765, T=0.0994\n5. 50 Ohm inner layer     -> W=0.1425, T=0.0994\n6. 55 Ohm inner layer     -> W=0.1153, T=0.0994\n\nStack Up:\nLayer         Material                            Thickness (mm)\n\nL1            Outer Copper Weight 1.0oz           0.0350\nPrepreg       3313 RC57% 4.2mil                   0.0994\nL2            Inner Copper Weight 0.5oz           0.0152\nCore          0.55mm H/Hwithout copper            0.5500\nL3            Inner Copper Weight                 0.0152\nPrepreg       2116 RC54% 4.9mil                   0.1088\nL4            Inner Copper Weight                 0.0152\nCore          0.55mm H/Hwithout copper            0.5500\nL5            Inner Copper Weight                 0.0152\nPrepeg        3313 RC57% 4.2mil                   0.0994\nL6            Outer RC57% 4.2mil                  0.0350"
+		(exclude_from_sim no)
+		(at 334.01 19.05 0)
+		(size 81.28 64.77)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Courier New")
+				(size 1.27 1.27)
+				(color 255 255 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "df269b4b-4b75-494b-ae99-1adf789d4384")
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 337.058 18.796 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 1.27 1.27)
+				(color 255 255 0 1)
+			)
+		)
+		(uuid "601c2205-b867-409f-b3a7-e9fb1444cf3e")
+	)
 	(label "DDR_BA[0..2]"
 		(at 251.46 124.46 0)
 		(fields_autoplaced yes)

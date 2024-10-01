@@ -5759,7 +5759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLCC"
+		(property "Description" ""
 			(at 282.194 41.91 0)
 			(effects
 				(font
@@ -6379,7 +6379,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "4c722066-09d6-4558-b84e-3eb26f22fc79")
 		(property "Reference" "C71"
@@ -8458,7 +8458,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "a3467218-2a5a-4720-a972-7387ab6d7d7f")
 		(property "Reference" "C72"
@@ -8929,7 +8929,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "c9805f34-e57b-44fa-b7ea-894cd823ecf4")
 		(property "Reference" "C69"
@@ -10073,7 +10073,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "f1593a84-5f91-4b4a-b8bc-81a38548cee5")
 		(property "Reference" "C70"
