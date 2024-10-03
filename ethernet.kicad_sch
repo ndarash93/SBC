@@ -2248,6 +2248,12 @@
 		(uuid "8b0f87dd-ed90-42fa-b82b-2efe8ea77cda")
 	)
 	(junction
+		(at 133.35 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e244ca6-149c-43d0-82e0-899dd73d2999")
+	)
+	(junction
 		(at 161.29 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2945,6 +2951,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 106.68) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c10831d-ace2-412a-ad3e-b4112ac0b22f")
+	)
+	(wire
+		(pts
 			(xy 74.93 121.92) (xy 74.93 130.81)
 		)
 		(stroke
@@ -3055,6 +3071,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 109.22) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b63d44d-3a2e-4d35-b735-51efe6d16930")
+	)
+	(wire
+		(pts
 			(xy 204.47 134.62) (xy 185.42 134.62)
 		)
 		(stroke
@@ -3092,6 +3118,16 @@
 			(type default)
 		)
 		(uuid "7255a195-2269-42a8-b17b-3677ec2071a7")
+	)
+	(wire
+		(pts
+			(xy 134.62 96.52) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729f0931-f027-43a0-a54c-811cf0024740")
 	)
 	(wire
 		(pts
@@ -3165,7 +3201,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 99.06) (xy 134.62 99.06)
+			(xy 124.46 99.06) (xy 132.08 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3302,6 +3338,16 @@
 			(type default)
 		)
 		(uuid "91f70e32-bde4-46dc-8020-f5d500508f83")
+	)
+	(wire
+		(pts
+			(xy 134.62 109.22) (xy 133.35 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9354e3c9-01b1-4836-acc3-86b7113cb3a2")
 	)
 	(wire
 		(pts
@@ -3502,6 +3548,16 @@
 			(type default)
 		)
 		(uuid "ad8d233e-5c48-4fb8-b975-aefab22349d0")
+	)
+	(wire
+		(pts
+			(xy 134.62 106.68) (xy 134.62 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe2e666-8a15-471b-a77e-60b9a0336b5c")
 	)
 	(wire
 		(pts
@@ -4106,7 +4162,7 @@
 		(uuid "44a31082-a954-434d-9bc9-ddefb4a81da8")
 	)
 	(label "LED2"
-		(at 134.62 99.06 180)
+		(at 132.08 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4170,6 +4226,17 @@
 			(justify right bottom)
 		)
 		(uuid "7d160ee9-7599-465a-a923-191e255bf0e4")
+	)
+	(label "VDDCR"
+		(at 85.09 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83319c87-45d8-44a6-89db-946bff505e29")
 	)
 	(label "VDD"
 		(at 58.42 152.4 0)
@@ -4727,7 +4794,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 61.468 161.29 0)
 			(effects
 				(font
@@ -4891,7 +4958,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 49.53 102.108 0)
 			(effects
 				(font
@@ -4971,7 +5038,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 236.982 85.09 0)
 			(effects
 				(font
@@ -5269,7 +5336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.898 181.61 0)
 			(effects
 				(font
@@ -5347,7 +5414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 49.53 116.332 0)
 			(effects
 				(font
@@ -5466,6 +5533,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 133.35 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2510b95c-9ef4-49c7-beef-dce5c220f418")
+		(property "Reference" "#PWR0256"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f28d72c9-883f-4f0f-a73a-d78c4198f975")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/df814d64-f889-41f0-8f1a-74d7f134d61e"
+					(reference "#PWR0256")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:R")
 		(at 247.65 85.09 270)
 		(unit 1)
@@ -5492,7 +5625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 243.078 85.09 0)
 			(effects
 				(font
@@ -5624,6 +5757,85 @@
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/df814d64-f889-41f0-8f1a-74d7f134d61e"
 					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:R")
+		(at 132.08 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e77db4c-089a-4876-a2e9-8b5463ab6971")
+		(property "Reference" "R146"
+			(at 129.54 104.1401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 129.54 101.6001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127.508 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" "5%"
+			(at 129.286 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74b028f2-9b9e-481b-af36-0d42c418d1fd")
+		)
+		(pin "1"
+			(uuid "8cb9045a-6ace-41f7-8bff-1f4fb647671e")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/df814d64-f889-41f0-8f1a-74d7f134d61e"
+					(reference "R146")
 					(unit 1)
 				)
 			)
@@ -5912,7 +6124,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 61.468 181.61 0)
 			(effects
 				(font
@@ -5990,7 +6202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.038 161.29 0)
 			(effects
 				(font
@@ -6068,7 +6280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.638 147.32 0)
 			(effects
 				(font
@@ -6146,7 +6358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 174.498 58.42 0)
 			(effects
 				(font
@@ -6551,7 +6763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.608 181.61 0)
 			(effects
 				(font
@@ -6629,7 +6841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 164.338 58.42 0)
 			(effects
 				(font
@@ -6773,7 +6985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.608 161.29 0)
 			(effects
 				(font
@@ -6983,7 +7195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 119.38 173.482 0)
 			(effects
 				(font
@@ -7147,7 +7359,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 184.658 58.42 0)
 			(effects
 				(font
@@ -7744,7 +7956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 105.918 162.56 0)
 			(effects
 				(font
@@ -7889,7 +8101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.992 147.32 0)
 			(effects
 				(font
@@ -7968,7 +8180,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.862 147.32 0)
 			(effects
 				(font
@@ -8046,7 +8258,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 175.768 147.32 0)
 			(effects
 				(font
@@ -8310,6 +8522,86 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:R")
+		(at 134.62 102.87 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c5f9156-4dd3-4f23-8a3f-9028bde4aa6d")
+		(property "Reference" "R147"
+			(at 137.16 104.1401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 137.16 101.6001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 139.192 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" "5%"
+			(at 137.414 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0207103-ee85-4140-846f-bcfb551d03ee")
+		)
+		(pin "1"
+			(uuid "45d7218b-7b48-422f-bfd3-a50671993235")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/df814d64-f889-41f0-8f1a-74d7f134d61e"
+					(reference "R147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:R")
 		(at 77.47 161.29 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8335,7 +8627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.898 161.29 0)
 			(effects
 				(font
@@ -8642,7 +8934,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.97 96.012 0)
 			(effects
 				(font
@@ -8871,7 +9163,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.038 181.61 0)
 			(effects
 				(font
@@ -9536,7 +9828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 79.502 118.11 0)
 			(effects
 				(font
@@ -9615,7 +9907,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 273.812 133.35 0)
 			(effects
 				(font
@@ -9776,7 +10068,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 154.178 58.42 0)
 			(effects
 				(font
