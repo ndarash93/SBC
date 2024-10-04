@@ -1210,6 +1210,29 @@
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
+		(at 149.86 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d50f6c0-805e-4436-bee4-6458e7cd20c8")
+		(property "Netclass" "RMII"
+			(at 150.4696 55.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
 		(at 160.02 105.41 0)
 		(effects
 			(font
@@ -1270,6 +1293,29 @@
 					(italic yes)
 				)
 				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 149.86 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39c490e7-205a-42ea-8199-4d3826b7727a")
+		(property "Netclass" "RMII"
+			(at 150.4696 71.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -1358,6 +1404,29 @@
 					(italic yes)
 				)
 				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 149.86 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83902027-d591-4c3f-abc5-76bc362d01e6")
+		(property "Netclass" "RMII"
+			(at 150.4696 78.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -1540,6 +1609,29 @@
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
+		(at 149.86 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b54bfc2f-bf2b-4450-bc86-e43bb6e4ccd6")
+		(property "Netclass" "RMII"
+			(at 150.4696 58.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
 		(at 233.68 120.65 0)
 		(effects
 			(font
@@ -1556,6 +1648,144 @@
 					(italic yes)
 				)
 				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 149.86 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfddb458-e626-48cd-8705-8d5d9d0bed5c")
+		(property "Netclass" "RMII"
+			(at 150.4696 81.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 149.86 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d19f5b94-1beb-4684-919b-61fc189bd840")
+		(property "Netclass" "RMII"
+			(at 150.4696 73.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 149.86 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9f1e7d7-17fe-4f8b-a1a6-e2a5bd71b625")
+		(property "Netclass" "RMII"
+			(at 150.4696 68.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 149.86 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5af8966-4699-4703-92ac-7b6107a77513")
+		(property "Netclass" "RMII"
+			(at 150.4696 60.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 149.86 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6e35a4b-839c-40b0-bc1e-0791a20aa711")
+		(property "Netclass" "RMII"
+			(at 150.4696 63.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 149.86 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6e727a1-3122-41bd-bb46-1c735b2abf77")
+		(property "Netclass" "RMII"
+			(at 150.4696 48.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
