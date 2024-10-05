@@ -154,10 +154,6 @@
 		(at 271.78 193.04)
 		(uuid "b7bbcf34-4c08-4566-967d-32541bdea512")
 	)
-	(no_connect
-		(at 179.07 83.82)
-		(uuid "d4c25728-b62b-4c5a-b309-345f0f95557d")
-	)
 	(bus
 		(pts
 			(xy 228.6 137.16) (xy 281.94 137.16)
@@ -387,6 +383,16 @@
 			(type default)
 		)
 		(uuid "2f2f00c8-d7d1-4e17-aef0-113763959e86")
+	)
+	(wire
+		(pts
+			(xy 147.32 83.82) (xy 179.07 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34189b9c-adc4-45f2-acf4-ac9f02efff3f")
 	)
 	(wire
 		(pts
@@ -3238,6 +3244,16 @@
 				(justify right)
 			)
 			(uuid "cecec39f-7b02-409a-a81e-fa2c0dd0c90e")
+		)
+		(pin "INTn" output
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "914bbc5c-c54c-4fc1-ac75-28df3f2a2dd2")
 		)
 		(instances
 			(project "SBC"

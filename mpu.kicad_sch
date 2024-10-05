@@ -13781,7 +13781,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 285.75) (xy 80.01 285.75)
+			(xy 66.04 285.75) (xy 80.01 285.75)
 		)
 		(stroke
 			(width 0)
@@ -15671,7 +15671,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 288.29) (xy 80.01 288.29)
+			(xy 66.04 288.29) (xy 80.01 288.29)
 		)
 		(stroke
 			(width 0)
@@ -21184,17 +21184,6 @@
 		)
 		(uuid "2b282a12-c1bd-47b2-8c67-5748b26d6993")
 	)
-	(label "SDMMC2_D5"
-		(at 66.04 242.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b47f1a0-ad65-449e-ba9b-79a49a4788aa")
-	)
 	(label "PD9"
 		(at 367.03 237.49 180)
 		(fields_autoplaced yes)
@@ -22108,6 +22097,17 @@
 		)
 		(uuid "69c4c97c-55f2-443e-a554-2d5fc3da39df")
 	)
+	(label "SDMMC2_D5"
+		(at 66.04 285.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a640619-fa6b-47f7-b325-f3e33cac7753")
+	)
 	(label "JTDI"
 		(at 414.02 116.84 0)
 		(fields_autoplaced yes)
@@ -22878,17 +22878,6 @@
 		)
 		(uuid "90800eb9-592b-48c7-84cc-665259453566")
 	)
-	(label "SDMMC2_D4"
-		(at 66.04 245.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91c7ff59-b24a-4a6e-a935-a9ac8f079560")
-	)
 	(label "DDR_CKE"
 		(at 209.55 156.21 180)
 		(fields_autoplaced yes)
@@ -23262,17 +23251,6 @@
 			(justify left bottom)
 		)
 		(uuid "a63176d9-aae4-4d5c-a4b2-13099c1804de")
-	)
-	(label "PA9"
-		(at 69.85 285.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a925abf2-4da3-462e-b17d-bcb9363602bd")
 	)
 	(label "USB_D2_P"
 		(at 430.53 39.37 0)
@@ -24045,6 +24023,17 @@
 		(uuid "cd156944-1866-4c28-8af4-e97ea9d988cc")
 	)
 	(label "SDMMC2_D4"
+		(at 66.04 288.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd51a31d-a8c4-4303-9059-b6311675c97c")
+	)
+	(label "SDMMC2_D4"
 		(at 501.65 33.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24142,17 +24131,6 @@
 			(justify left bottom)
 		)
 		(uuid "d407408c-a804-4702-ae0e-f468f4dd7b85")
-	)
-	(label "PA8"
-		(at 69.85 288.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4b11d81-eb5d-4637-9bfd-4b3d7fc9552c")
 	)
 	(label "DBGACK"
 		(at 66.04 275.59 0)
