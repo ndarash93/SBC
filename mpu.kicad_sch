@@ -14461,7 +14461,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 242.57) (xy 80.01 242.57)
+			(xy 69.85 242.57) (xy 80.01 242.57)
 		)
 		(stroke
 			(width 0)
@@ -19871,7 +19871,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 245.11) (xy 80.01 245.11)
+			(xy 69.85 245.11) (xy 80.01 245.11)
 		)
 		(stroke
 			(width 0)
@@ -20457,6 +20457,17 @@
 			(justify left bottom)
 		)
 		(uuid "013a7fdd-bece-436d-b346-f19c8b99e1ae")
+	)
+	(label "PB9"
+		(at 69.85 242.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01c4f79c-7cb6-48a3-972b-8cb32051e15b")
 	)
 	(label "OSC_IN"
 		(at 480.06 176.53 180)
@@ -24373,6 +24384,17 @@
 			(justify right bottom)
 		)
 		(uuid "e5face7c-0fca-4ac7-ba36-fee3e1f1d650")
+	)
+	(label "PB8"
+		(at 69.85 245.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e620ee0c-f868-4696-97a0-99b52208f25c")
 	)
 	(label "PD2"
 		(at 232.41 397.51 180)
