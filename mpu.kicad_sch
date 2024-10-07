@@ -20590,17 +20590,6 @@
 		)
 		(uuid "0bcc25e9-54da-41e8-9f48-1acdfd122b74")
 	)
-	(label "PB7"
-		(at 95.25 397.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0c179c68-17a8-4f8c-abf0-512d44507a46")
-	)
 	(label "UART4_TX"
 		(at 326.39 229.87 0)
 		(fields_autoplaced yes)
@@ -20743,17 +20732,6 @@
 			(justify right bottom)
 		)
 		(uuid "13bb861c-578e-4f77-b839-2377271f2a9c")
-	)
-	(label "PB6"
-		(at 87.63 397.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "15f42466-a60f-495a-9182-b08cd78ff738")
 	)
 	(label "PA5"
 		(at 326.39 227.33 0)
@@ -21338,17 +21316,6 @@
 		)
 		(uuid "38a7af63-173b-4e4f-993b-ccd0e25490e6")
 	)
-	(label "PB1"
-		(at 72.39 397.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "390b1c93-ac00-4fae-8665-58f00f4c9b9e")
-	)
 	(label "PF10"
 		(at 209.55 370.84 180)
 		(fields_autoplaced yes)
@@ -21481,6 +21448,17 @@
 		)
 		(uuid "3e7c65af-ed59-4cd0-ae93-0d5641559bbe")
 	)
+	(label "PB1"
+		(at 57.15 397.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e840fcd-bcce-43d4-a942-d376129cd9f3")
+	)
 	(label "nRST"
 		(at 496.57 105.41 0)
 		(fields_autoplaced yes)
@@ -21590,6 +21568,17 @@
 			(justify left bottom)
 		)
 		(uuid "49b50b86-3d0f-42c3-9457-db64af235e1c")
+	)
+	(label "PB8"
+		(at 87.63 397.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a1c196f-e079-4923-b915-3f6c7ec3c503")
 	)
 	(label "A14"
 		(at 196.85 232.41 0)
@@ -21976,6 +21965,17 @@
 		)
 		(uuid "5e3129d0-2f1b-4b84-9025-c255cde34990")
 	)
+	(label "PB5"
+		(at 64.77 397.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ec53367-fe99-4bf2-9ec0-ceab7190bd81")
+	)
 	(label "PC10"
 		(at 171.45 397.51 180)
 		(fields_autoplaced yes)
@@ -22360,6 +22360,17 @@
 			(justify left bottom)
 		)
 		(uuid "74e42358-4f7d-43c6-bfa5-4002885053af")
+	)
+	(label "PB9"
+		(at 95.25 397.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "752734e4-1c41-4c35-b1c4-19de63d31fcb")
 	)
 	(label "VDD_DDR"
 		(at 105.41 325.12 90)
@@ -22910,17 +22921,6 @@
 			(justify left bottom)
 		)
 		(uuid "93777172-e02c-4464-bf0f-3c7a0176fb12")
-	)
-	(label "PA8"
-		(at 57.15 397.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "947f7fa6-776d-4c05-8202-f776279703a5")
 	)
 	(label "VDD_CORE"
 		(at 115.57 325.12 90)
@@ -23956,8 +23956,8 @@
 		)
 		(uuid "ca1532c6-c32b-4d79-be5a-5b7d80e415fe")
 	)
-	(label "PA9"
-		(at 64.77 397.51 180)
+	(label "PB7"
+		(at 80.01 397.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23965,7 +23965,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ca53dc8b-96c8-4f5c-aa34-cef900aa4a2b")
+		(uuid "ca1d2eb2-3774-44c5-a35f-6449a90199c7")
 	)
 	(label "VDDA"
 		(at 156.21 325.12 90)
@@ -24351,17 +24351,6 @@
 			(justify left bottom)
 		)
 		(uuid "e31bb4b4-1efe-4731-ad49-ac544d048356")
-	)
-	(label "PB5"
-		(at 80.01 397.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e341f9c3-4304-471b-9027-69e85f527b44")
 	)
 	(label "VDD1V1_REG"
 		(at 502.92 337.82 180)
@@ -24758,6 +24747,17 @@
 			(justify left bottom)
 		)
 		(uuid "fda2acbd-31a4-4ae0-9869-61ee06182c40")
+	)
+	(label "PB6"
+		(at 72.39 397.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fdb5afd9-a412-4d32-880f-88fab5cf7c8b")
 	)
 	(label "PG10"
 		(at 69.85 64.77 0)
