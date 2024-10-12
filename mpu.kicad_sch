@@ -18561,7 +18561,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 240.03) (xy 80.01 240.03)
+			(xy 69.85 240.03) (xy 80.01 240.03)
 		)
 		(stroke
 			(width 0)
@@ -21503,6 +21503,17 @@
 		)
 		(uuid "405c0435-b9d9-4a1a-98b2-9260beb69644")
 	)
+	(label "PB10"
+		(at 95.25 370.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40677b62-ba09-4382-9ca7-0355b6015af5")
+	)
 	(label "DBGRQ"
 		(at 496.57 107.95 0)
 		(fields_autoplaced yes)
@@ -22877,6 +22888,17 @@
 			(justify left bottom)
 		)
 		(uuid "8d7ddd75-a6b9-415a-b4e0-ddcd36cd8a8a")
+	)
+	(label "PB10"
+		(at 69.85 240.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8eb38996-cec7-4a11-8955-a49f45c1a809")
 	)
 	(label "UART4_RX"
 		(at 384.81 389.89 0)
@@ -24681,17 +24703,6 @@
 			(justify left bottom)
 		)
 		(uuid "f9bdbe3d-fd81-4cd4-aca9-0c09d20c5d55")
-	)
-	(label "OTG_ID"
-		(at 66.04 240.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9be9f34-7f29-4dcb-88c4-64e06f1b23f2")
 	)
 	(label "VDD_CORE"
 		(at 120.65 325.12 90)
