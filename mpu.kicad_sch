@@ -11734,12 +11734,6 @@
 			)
 		)
 	)
-	(bus_alias "GND"
-		(members "VSSA")
-	)
-	(bus_alias "VREF+"
-		(members "VDDA")
-	)
 	(junction
 		(at 435.61 210.82)
 		(diameter 0)
@@ -11831,12 +11825,6 @@
 		(uuid "27ee35f3-0aa1-40b3-a95a-4d18a9d0dc81")
 	)
 	(junction
-		(at 339.09 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bab0d9a-51a8-486a-a76a-36c30600b271")
-	)
-	(junction
 		(at 397.51 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11897,12 +11885,6 @@
 		(uuid "3f6472ab-9bf5-46e2-946d-c878b4cd753d")
 	)
 	(junction
-		(at 331.47 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f894a72-bda7-45d0-b3a8-83bde92b8da6")
-	)
-	(junction
 		(at 359.41 316.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11919,12 +11901,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b365c71-3657-44c0-9d25-e857b895ab76")
-	)
-	(junction
-		(at 335.28 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d1b970a-cd39-4644-a776-c951ba57f1dc")
 	)
 	(junction
 		(at 521.97 107.95)
@@ -12135,12 +12111,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0fd1e9f-d6d0-4b02-9b97-33577bff27fe")
-	)
-	(junction
-		(at 397.51 363.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e16301c7-d20a-4d55-88d4-8cd50de8258c")
 	)
 	(junction
 		(at 521.97 100.33)
@@ -13035,7 +13005,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 52.07) (xy 335.28 52.07)
+			(xy 320.04 52.07) (xy 356.87 52.07)
 		)
 		(stroke
 			(width 0)
@@ -14485,16 +14455,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 35.56) (xy 339.09 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42162d1d-0044-403a-beb1-f25c4ad1f264")
-	)
-	(wire
-		(pts
 			(xy 189.23 370.84) (xy 189.23 375.92)
 		)
 		(stroke
@@ -14795,16 +14755,6 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 363.22) (xy 410.21 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b5c93a9-41b4-4aca-9ebb-6db41458140a")
-	)
-	(wire
-		(pts
 			(xy 459.74 337.82) (xy 477.52 337.82)
 		)
 		(stroke
@@ -14942,16 +14892,6 @@
 			(type default)
 		)
 		(uuid "50ab65e7-394d-412b-8288-32fb28605be4")
-	)
-	(wire
-		(pts
-			(xy 331.47 43.18) (xy 349.25 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50b4fec5-b47f-4bca-8fac-f04305436774")
 	)
 	(bus
 		(pts
@@ -15102,16 +15042,6 @@
 			(type default)
 		)
 		(uuid "5443ffad-2f20-45e3-8171-e917a2095f43")
-	)
-	(wire
-		(pts
-			(xy 335.28 52.07) (xy 356.87 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "545acc32-0aaa-42ad-9fbc-a865e2a85a87")
 	)
 	(wire
 		(pts
@@ -16735,7 +16665,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 363.22) (xy 397.51 363.22)
+			(xy 384.81 363.22) (xy 410.21 363.22)
 		)
 		(stroke
 			(width 0)
@@ -17445,16 +17375,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 30.48) (xy 335.28 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a82ef370-cdc3-4088-b4d3-956dfe9a311f")
-	)
-	(wire
-		(pts
 			(xy 66.04 69.85) (xy 80.01 69.85)
 		)
 		(stroke
@@ -17745,7 +17665,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 43.18) (xy 331.47 43.18)
+			(xy 320.04 43.18) (xy 349.25 43.18)
 		)
 		(stroke
 			(width 0)
@@ -18215,7 +18135,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 60.96) (xy 339.09 60.96)
+			(xy 320.04 60.96) (xy 364.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -18522,16 +18442,6 @@
 			(type default)
 		)
 		(uuid "cd451d33-d8de-4943-8163-285dd8e05416")
-	)
-	(wire
-		(pts
-			(xy 339.09 60.96) (xy 364.49 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdad5fa2-0cdf-48fe-94c0-49246c85a21b")
 	)
 	(wire
 		(pts
@@ -19762,16 +19672,6 @@
 			(type default)
 		)
 		(uuid "fc317f09-1869-48f3-8dc4-f41404eec5dc")
-	)
-	(wire
-		(pts
-			(xy 331.47 25.4) (xy 331.47 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc6844d9-6b13-404f-9c32-1249661f520d")
 	)
 	(bus
 		(pts
@@ -30610,91 +30510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Capacitor:C")
-		(at 397.51 367.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38e688d2-0947-4762-8c78-bd49a2c56ec2")
-		(property "Reference" "C54"
-			(at 401.32 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 401.32 365.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 398.4752 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 404.114 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 397.51 381 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 401.32 368.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "f794a2e3-da09-4599-a208-a1f86166f626")
-		)
-		(pin "2"
-			(uuid "7ad0dde7-5de2-4dab-9098-343543931166")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 105.41 410.21 0)
 		(mirror y)
@@ -32720,73 +32535,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 331.47 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e5580d5-10eb-4331-aeea-a1753d8012f3")
-		(property "Reference" "TP17"
-			(at 334.01 20.8279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 334.01 23.3679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
-			(at 336.55 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 336.55 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 331.47 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b178664e-3cb3-4ef7-a282-733c6fa325db")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:DIN41612_02x10_AB")
 		(at 510.54 97.79 0)
 		(unit 1)
@@ -33397,7 +33145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 216.408 99.06 0)
 			(effects
 				(font
@@ -34496,72 +34244,6 @@
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
 					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSSA")
-		(at 397.51 370.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66fa9d0e-e5ac-4cc5-956c-02819f770a1c")
-		(property "Reference" "#PWR0147"
-			(at 397.51 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 397.51 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 397.51 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 397.51 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 397.51 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55618dc3-1177-4f2c-9770-7dfd71361dd1")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
-					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -36734,7 +36416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 423.8752 327.66 0)
 			(effects
 				(font
@@ -37106,73 +36788,6 @@
 			(project ""
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 335.28 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8278c399-47b7-46fc-8891-428ed4bf50c1")
-		(property "Reference" "TP18"
-			(at 337.82 25.9079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 337.82 28.4479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
-			(at 340.36 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 335.28 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05f83945-0233-49f2-9d24-c389cd0d9910")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
-					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -40198,73 +39813,6 @@
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
 					(reference "#PWR0185")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 339.09 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d2a2e72-0899-4d53-91d8-394b7b8c11ee")
-		(property "Reference" "TP19"
-			(at 341.63 30.9879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 341.63 33.5279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
-			(at 344.17 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 344.17 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 339.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9dbca9db-c6fe-4641-af47-aa09d44408aa")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
-					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -43956,7 +43504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 436.5752 378.46 0)
 			(effects
 				(font
