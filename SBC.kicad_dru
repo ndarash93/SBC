@@ -19,3 +19,4 @@
 	(condition "A.NetClass == 'EMMC'")
 	(constraint length (min 49.5mm) (max 50.5mm) (opt 50mm))
 	(constraint skew (min -0.5mm) (max 0.5mm) (opt 0mm)))
+

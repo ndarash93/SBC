@@ -147,6 +147,10 @@
 		(uuid "7f67b820-e3d1-4cec-bbc9-67b73a6177a5")
 	)
 	(no_connect
+		(at 195.58 142.24)
+		(uuid "a58430e1-c490-4366-a963-5fed230fc1a3")
+	)
+	(no_connect
 		(at 266.7 166.37)
 		(uuid "b76362e1-f755-440e-a128-8557139929ae")
 	)
@@ -1512,9 +1516,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "97c5829d-b869-4fd7-b277-a35e796b5586")
+		(uuid "9776b15d-2940-4454-bc60-2704b1e44611")
 		(property "Netclass" "DDR_ADDRESS"
-			(at 234.442 129.286 0)
+			(at 234.2896 129.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,6 +2764,16 @@
 				(justify left)
 			)
 			(uuid "1634cbc6-4f8a-413b-aca3-9ac7f306496b")
+		)
+		(pin "PWR_LP" input
+			(at 195.58 142.24 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "599a8a9c-6e07-44c1-9926-c6cfb5a8849d")
 		)
 		(instances
 			(project "SBC"

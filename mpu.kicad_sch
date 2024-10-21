@@ -24447,6 +24447,18 @@
 		)
 		(uuid "ff98919f-3b99-4ecf-a686-1ca755f19905")
 	)
+	(hierarchical_label "PWR_LP"
+		(shape input)
+		(at 205.74 285.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b5a31a6-ddd2-4647-9147-e61c3707316b")
+	)
 	(hierarchical_label "DDR_CKE"
 		(shape output)
 		(at 478.79 312.42 0)
@@ -24926,17 +24938,6 @@
 			(justify left)
 		)
 		(uuid "d0e07bfa-8f35-474b-878b-3739a1534f92")
-		(property "Target_Skew" "1.0mm"
-			(at 234.95 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "VDD_DDR"
 		(shape input)
