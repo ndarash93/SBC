@@ -1152,49 +1152,6 @@
 		)
 		(uuid "601c2205-b867-409f-b3a7-e9fb1444cf3e")
 	)
-	(label "DDR_BA[0..2]"
-		(at 251.46 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7096d2ac-77d6-46c1-bc16-d6e4dae1e580")
-		(property "Netclass" "BUS"
-			(at 251.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(label "A[0..15]"
-		(at 251.46 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f27c4916-f4a0-46a1-9a8b-c4c746095308")
-		(property "Netclass" "A_BUS"
-			(at 251.46 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-	)
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
