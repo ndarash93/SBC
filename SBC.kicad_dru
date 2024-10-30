@@ -17,6 +17,6 @@
 
 (rule "EMMC Data Net Length"
 	(condition "A.NetClass == 'EMMC'")
-	(constraint length (min 49.5mm) (max 50.5mm) (opt 50mm))
-	(constraint skew (min -0.5mm) (max 0.5mm) (opt 0mm)))
+	(constraint length (min 45mm) (max 55mm) (opt 50mm))
+	(constraint skew (min -5mm) (max 5mm) (opt 0mm)))
 

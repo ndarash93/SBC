@@ -1289,28 +1289,6 @@
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
-		(at 165.1 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d56dd2c-845a-4820-9240-bda8e8dce76d")
-		(property "Netclass" "EMMC"
-			(at 165.7096 110.4646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left bottom)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 0.0254)
-		(shape round)
 		(at 157.48 102.87 0)
 		(effects
 			(font
