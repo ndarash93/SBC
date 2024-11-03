@@ -1289,6 +1289,28 @@
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
+		(at 233.68 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43a406b0-1755-4eca-970d-da5b613aab83")
+		(property "Netclass" "DDR_ADDRESS"
+			(at 234.2896 91.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
 		(at 157.48 102.87 0)
 		(effects
 			(font
@@ -1299,6 +1321,50 @@
 		(uuid "4a65e698-6573-45b4-a714-e843af2d9698")
 		(property "Netclass" "EMMC"
 			(at 158.0896 102.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 233.68 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54b68b4d-8fd2-478e-b298-9dbbd2b4afa3")
+		(property "Netclass" "DDR_ADDRESS"
+			(at 234.2896 59.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 233.68 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5caef04f-5ffd-4a00-8ab5-fa30d6d22a96")
+		(property "Netclass" "DDR_ADDRESS"
+			(at 234.2896 93.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,6 +1643,28 @@
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
+		(at 233.68 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2e9a90f-1305-4d4c-aa56-e66cd83b845a")
+		(property "Netclass" "DDR_ADDRESS"
+			(at 234.2896 67.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
 		(at 233.68 120.65 0)
 		(effects
 			(font
@@ -1645,6 +1733,28 @@
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
+		(at 233.68 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc58cf6d-54c9-4d86-a898-a63e0c570093")
+		(property "Netclass" "DDR_ADDRESS"
+			(at 234.2896 104.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
 		(at 149.86 68.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1662,6 +1772,28 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 0.0254)
+		(shape round)
+		(at 233.68 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ead22490-d837-4e45-9249-7638b72cecb7")
+		(property "Netclass" "DDR_ADDRESS"
+			(at 234.2896 96.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
 			)
 		)
 	)
