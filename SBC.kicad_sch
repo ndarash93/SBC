@@ -1496,7 +1496,7 @@
 			(justify left bottom)
 		)
 		(uuid "91c3a089-9fa3-4b31-9bcb-936f8c5df9c4")
-		(property "Netclass" "DDR_ADDRESS"
+		(property "Netclass" "DDR_CLOCK"
 			(at 234.2896 113.0046 0)
 			(effects
 				(font
@@ -1540,7 +1540,7 @@
 			(justify left bottom)
 		)
 		(uuid "97cc877d-420f-4723-b8c7-55b35102793a")
-		(property "Netclass" "DDR_ADDRESS"
+		(property "Netclass" "DDR_CLOCK"
 			(at 234.2896 110.4646 0)
 			(effects
 				(font
