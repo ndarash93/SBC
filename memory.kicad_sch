@@ -2428,6 +2428,12 @@
 		(uuid "54921cd0-5e51-499c-95da-56f4a6fa7036")
 	)
 	(junction
+		(at 38.1 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56ed92e9-3f53-49cb-9b1d-c82c3a102203")
+	)
+	(junction
 		(at 95.25 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5136,6 +5142,16 @@
 		)
 		(uuid "eb30fc5c-04b8-41de-92c2-5f2b0fcacdd0")
 	)
+	(wire
+		(pts
+			(xy 24.13 57.15) (xy 38.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed916a39-ed91-45ee-9ae8-18b0f827cc64")
+	)
 	(bus
 		(pts
 			(xy 162.56 63.5) (xy 162.56 60.96)
@@ -6861,7 +6877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 36.5252 161.29 0)
 			(effects
 				(font
@@ -8734,7 +8750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 46.228 167.64 0)
 			(effects
 				(font
@@ -8780,6 +8796,72 @@
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/1a39d522-2eb7-49c0-a4cb-6db909b7fe44"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2dc2177-e963-4305-a386-91d00e2d6587")
+		(property "Reference" "#PWR0257"
+			(at 24.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d244dc3c-ea77-4c34-b603-c9c3c8889222")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/1a39d522-2eb7-49c0-a4cb-6db909b7fe44"
+					(reference "#PWR0257")
 					(unit 1)
 				)
 			)
@@ -9913,6 +9995,91 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C")
+		(at 24.13 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3562532-846a-4568-a526-df9bd5cacbb1")
+		(property "Reference" "C93"
+			(at 27.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3nF"
+			(at 27.94 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 25.0952 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.734 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 24.13 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 27.94 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "38467499-32a0-4207-afe6-914e54ce95cd")
+		)
+		(pin "2"
+			(uuid "1be72339-2e60-4b03-ac93-f0ed6ead3f7c")
+		)
+		(instances
+			(project "SBC"
+				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/1a39d522-2eb7-49c0-a4cb-6db909b7fe44"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Capacitor:C")
 		(at 30.48 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10024,7 +10191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 51.7652 161.29 0)
 			(effects
 				(font
