@@ -22269,7 +22269,7 @@
 		)
 		(uuid "7d29c659-47b7-4a0b-9a8c-5722fb87fcf0")
 	)
-	(label "VDD1V8_REG"
+	(label "VDDA1V8_REG"
 		(at 453.39 337.82 180)
 		(fields_autoplaced yes)
 		(effects
