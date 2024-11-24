@@ -17,7 +17,7 @@
 
 (rule "DDR Address and Control"
 	(condition "A.NetClass == 'DDR_ADDRESS'")
-	(constraint length (min 39mm) (max 40mm) (opt 40mm))
+	(constraint length (min 39mm) (max 41mm) (opt 40mm))
 	(constraint skew (min -1.0mm) (max 1.0mm) (opt 0mm)))
 
 (rule "EMMC Data Net Length"
