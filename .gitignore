@@ -22,6 +22,7 @@ sym-lib-table
 *.txt
 *.kicad_sch-bak
 BOMS/
+/plot
 
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
