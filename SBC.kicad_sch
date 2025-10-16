@@ -270,6 +270,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 148.59) (xy 217.17 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15bb167c-9a6a-4c95-914a-dd1117fd6320")
+	)
+	(wire
+		(pts
 			(xy 176.53 156.21) (xy 176.53 127)
 		)
 		(stroke
@@ -910,6 +920,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 166.37) (xy 299.72 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d00947-2149-44a1-aba9-5bac78f792ec")
+	)
+	(wire
+		(pts
 			(xy 262.89 158.75) (xy 173.99 158.75)
 		)
 		(stroke
@@ -917,6 +937,16 @@
 			(type default)
 		)
 		(uuid "c3802cd7-821e-4055-960c-08d090414161")
+	)
+	(wire
+		(pts
+			(xy 299.72 148.59) (xy 217.17 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44300e8-a522-40a8-b4a7-9b8bd3551b20")
 	)
 	(wire
 		(pts
@@ -2842,6 +2872,16 @@
 			)
 			(uuid "599a8a9c-6e07-44c1-9926-c6cfb5a8849d")
 		)
+		(pin "VDD_USB" input
+			(at 217.17 142.24 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2bc8a107-8396-42ff-bac1-f5a0395c3fd3")
+		)
 		(instances
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0"
@@ -2991,7 +3031,7 @@
 			(uuid "df914a80-efae-42e6-9345-707481d40e7c")
 		)
 		(pin "VDD_USB" output
-			(at 292.1 166.37 90)
+			(at 299.72 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)

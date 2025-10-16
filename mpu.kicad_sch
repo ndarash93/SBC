@@ -24402,7 +24402,7 @@
 	)
 	(wire
 		(pts
-			(xy 806.45 453.39) (xy 824.23 453.39)
+			(xy 806.45 453.39) (xy 819.15 453.39)
 		)
 		(stroke
 			(width 0)
@@ -32471,7 +32471,7 @@
 		(uuid "7209c243-3c49-4e5c-a9f6-8b777359a347")
 	)
 	(label "VDD3V3_USB"
-		(at 824.23 453.39 180)
+		(at 819.15 453.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36535,6 +36535,18 @@
 			(justify left)
 		)
 		(uuid "e41479ba-0720-47ba-b88b-894bfeb83719")
+	)
+	(hierarchical_label "VDD_USB"
+		(shape input)
+		(at 819.15 453.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e912f88f-fbad-414b-b7c0-7b7f10fb876d")
 	)
 	(hierarchical_label "ETH1_RMII_TX_EN"
 		(shape output)
