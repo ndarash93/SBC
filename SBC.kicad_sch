@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "21bb932a-ec67-4661-9215-0551f718d1c0")
 	(paper "B")
 	(title_block
@@ -15,9 +15,13 @@
 	(lib_symbols
 		(symbol "power:VDD"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -89,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -101,7 +105,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -132,7 +136,43 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 337.058 18.796 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 1.27 1.27)
+				(color 255 255 0 1)
+			)
+		)
+		(uuid "601c2205-b867-409f-b3a7-e9fb1444cf3e")
+	)
+	(text_box "Trace width and spacing requirements:\n\n(Differential)\n1. 90 Ohm outer layer     -> W=0.1422mm, S=0.0994\n2. 100 Ohm outer layer    -> W=0.1095, S=0.0994\n3. 90 Ohm inner layer     -> W=0.1328, S=0.0994\n4. 100 Ohm innder layer   -> W=0.1029, S=0.0994\n\n(Single Ended)\n1. 45 Ohm outer layer     -> W=0.1542, T=0.0994\n2. 50 Ohm outer layer     -> W=0.1196, T=0.0994\n3. 55 Ohm outer layer     -> W=0.0922, T=0.0994\n4. 45 Ohm inner layer     -> W=0.1765, T=0.0994\n5. 50 Ohm inner layer     -> W=0.1425, T=0.0994\n6. 55 Ohm inner layer     -> W=0.1153, T=0.0994\n\nStack Up:\nLayer         Material                            Thickness (mm)\n\nL1            Outer Copper Weight 1.0oz           0.0350\nPrepreg       3313 RC57% 4.2mil                   0.0994\nL2            Inner Copper Weight 0.5oz           0.0152\nCore          0.55mm H/Hwithout copper            0.5500\nL3            Inner Copper Weight                 0.0152\nPrepreg       2116 RC54% 4.9mil                   0.1088\nL4            Inner Copper Weight                 0.0152\nCore          0.55mm H/Hwithout copper            0.5500\nL5            Inner Copper Weight                 0.0152\nPrepeg        3313 RC57% 4.2mil                   0.0994\nL6            Outer RC57% 4.2mil                  0.0350"
+		(exclude_from_sim no)
+		(at 334.01 19.05 0)
+		(size 81.28 64.77)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Courier New")
+				(size 1.27 1.27)
+				(color 255 255 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "df269b4b-4b75-494b-ae99-1adf789d4384")
 	)
 	(junction
 		(at 262.89 158.75)
@@ -1148,40 +1188,6 @@
 		)
 		(uuid "fc6d0ea0-d6de-4405-abc6-2c69c9230d5f")
 	)
-	(text_box "Trace width and spacing requirements:\n\n(Differential)\n1. 90 Ohm outer layer     -> W=0.1422mm, S=0.0994\n2. 100 Ohm outer layer    -> W=0.1095, S=0.0994\n3. 90 Ohm inner layer     -> W=0.1328, S=0.0994\n4. 100 Ohm innder layer   -> W=0.1029, S=0.0994\n\n(Single Ended)\n1. 45 Ohm outer layer     -> W=0.1542, T=0.0994\n2. 50 Ohm outer layer     -> W=0.1196, T=0.0994\n3. 55 Ohm outer layer     -> W=0.0922, T=0.0994\n4. 45 Ohm inner layer     -> W=0.1765, T=0.0994\n5. 50 Ohm inner layer     -> W=0.1425, T=0.0994\n6. 55 Ohm inner layer     -> W=0.1153, T=0.0994\n\nStack Up:\nLayer         Material                            Thickness (mm)\n\nL1            Outer Copper Weight 1.0oz           0.0350\nPrepreg       3313 RC57% 4.2mil                   0.0994\nL2            Inner Copper Weight 0.5oz           0.0152\nCore          0.55mm H/Hwithout copper            0.5500\nL3            Inner Copper Weight                 0.0152\nPrepreg       2116 RC54% 4.9mil                   0.1088\nL4            Inner Copper Weight                 0.0152\nCore          0.55mm H/Hwithout copper            0.5500\nL5            Inner Copper Weight                 0.0152\nPrepeg        3313 RC57% 4.2mil                   0.0994\nL6            Outer RC57% 4.2mil                  0.0350"
-		(exclude_from_sim no)
-		(at 334.01 19.05 0)
-		(size 81.28 64.77)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 255 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Courier New")
-				(size 1.27 1.27)
-				(color 255 255 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "df269b4b-4b75-494b-ae99-1adf789d4384")
-	)
-	(text "Notes"
-		(exclude_from_sim no)
-		(at 337.058 18.796 0)
-		(effects
-			(font
-				(face "Courier New")
-				(size 1.27 1.27)
-				(color 255 255 0 1)
-			)
-		)
-		(uuid "601c2205-b867-409f-b3a7-e9fb1444cf3e")
-	)
 	(netclass_flag ""
 		(length 0.0254)
 		(shape round)
@@ -2097,6 +2103,10 @@
 	(sheet
 		(at 281.94 38.1)
 		(size 27.94 104.14)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2126,223 +2136,223 @@
 		)
 		(pin "A[0..15]" input
 			(at 281.94 129.54 180)
+			(uuid "1e0bb448-69da-4ec0-bdda-0de95abffb95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1e0bb448-69da-4ec0-bdda-0de95abffb95")
 		)
 		(pin "CAS" input
 			(at 281.94 96.52 180)
+			(uuid "588676c6-b011-4c28-92d4-179a8bc8c473")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "588676c6-b011-4c28-92d4-179a8bc8c473")
 		)
 		(pin "CKE" input
 			(at 281.94 104.14 180)
+			(uuid "16934d67-b624-4b9f-9e03-73e2d2bbae65")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "16934d67-b624-4b9f-9e03-73e2d2bbae65")
 		)
 		(pin "RAS" input
 			(at 281.94 93.98 180)
+			(uuid "0ede645b-ee90-448d-b7ab-e4e5aa814290")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0ede645b-ee90-448d-b7ab-e4e5aa814290")
 		)
 		(pin "ODT" input
 			(at 281.94 67.31 180)
+			(uuid "9b69b94d-a318-479e-a067-8cf7f39131e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9b69b94d-a318-479e-a067-8cf7f39131e1")
 		)
 		(pin "WE" input
 			(at 281.94 91.44 180)
+			(uuid "a392d120-f281-4ca3-bd17-b5e1740733ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a392d120-f281-4ca3-bd17-b5e1740733ac")
 		)
 		(pin "CS" input
 			(at 281.94 59.69 180)
+			(uuid "82bb3231-2f22-4dcb-b063-601f027e2045")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "82bb3231-2f22-4dcb-b063-601f027e2045")
 		)
 		(pin "DML" input
 			(at 281.94 120.65 180)
+			(uuid "e9a7a4c0-da66-4f59-80de-d54f31c2454e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e9a7a4c0-da66-4f59-80de-d54f31c2454e")
 		)
 		(pin "DMU" input
 			(at 281.94 118.11 180)
+			(uuid "807aa2a0-9263-411a-93b4-2bc3324a48b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "807aa2a0-9263-411a-93b4-2bc3324a48b4")
 		)
 		(pin "VREF" input
 			(at 309.88 127 0)
+			(uuid "de06971e-114a-4d7c-866b-58ad2ceb19d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "de06971e-114a-4d7c-866b-58ad2ceb19d2")
 		)
 		(pin "VDD" input
 			(at 309.88 123.19 0)
+			(uuid "bb41fa64-6726-4814-b1da-0fdab54239f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bb41fa64-6726-4814-b1da-0fdab54239f6")
 		)
 		(pin "RESET" input
 			(at 281.94 63.5 180)
+			(uuid "a20973f0-da50-479d-906f-214fd75213e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a20973f0-da50-479d-906f-214fd75213e1")
 		)
 		(pin "DQSU_P" input
 			(at 281.94 74.93 180)
+			(uuid "b40d1f40-9ef3-40c7-b61d-9ff43feac270")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b40d1f40-9ef3-40c7-b61d-9ff43feac270")
 		)
 		(pin "DQSU_N" input
 			(at 281.94 77.47 180)
+			(uuid "b790cfd4-3ad8-4075-8314-62647457051f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b790cfd4-3ad8-4075-8314-62647457051f")
 		)
 		(pin "DQSL_P" input
 			(at 281.94 81.28 180)
+			(uuid "b1b6c3a3-73ad-451b-91d2-d0ae67881862")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b1b6c3a3-73ad-451b-91d2-d0ae67881862")
 		)
 		(pin "DQSL_N" input
 			(at 281.94 83.82 180)
+			(uuid "f16f21a5-38e8-47d9-b6fe-77ba1acb434f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f16f21a5-38e8-47d9-b6fe-77ba1acb434f")
 		)
 		(pin "DDR_BA[0..2]" input
 			(at 281.94 124.46 180)
+			(uuid "19d2b64c-0b83-499b-bb55-4d6d3717dda4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "19d2b64c-0b83-499b-bb55-4d6d3717dda4")
 		)
 		(pin "CK_P" input
 			(at 281.94 110.49 180)
+			(uuid "6cec8f68-ceb7-468d-a31f-194157ceff3a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6cec8f68-ceb7-468d-a31f-194157ceff3a")
 		)
 		(pin "CK_N" input
 			(at 281.94 113.03 180)
+			(uuid "2c6ca0f9-702a-47df-9306-6bbe2f42adc3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2c6ca0f9-702a-47df-9306-6bbe2f42adc3")
 		)
 		(pin "VTT" input
 			(at 309.88 130.81 0)
+			(uuid "b6c924ef-03f6-4886-98c8-c31ff84bc81a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b6c924ef-03f6-4886-98c8-c31ff84bc81a")
 		)
 		(pin "DQ[0..7]" bidirectional
 			(at 281.94 137.16 180)
+			(uuid "c303b43d-0139-4c39-9872-4a040955441f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c303b43d-0139-4c39-9872-4a040955441f")
 		)
 		(pin "DQ[8..15]" bidirectional
 			(at 281.94 134.62 180)
+			(uuid "ac34be54-5529-4848-a068-63f903d9e2e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ac34be54-5529-4848-a068-63f903d9e2e4")
 		)
 		(instances
 			(project "SBC"
@@ -2355,6 +2365,10 @@
 	(sheet
 		(at 179.07 38.1)
 		(size 49.53 104.14)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2384,503 +2398,503 @@
 		)
 		(pin "A[0..15]" output
 			(at 228.6 129.54 0)
+			(uuid "0b445733-bf48-4aa6-a9cc-acf339f893fe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0b445733-bf48-4aa6-a9cc-acf339f893fe")
 		)
 		(pin "DDR_BA[0..2]" output
 			(at 228.6 124.46 0)
+			(uuid "dd807d1e-b48a-4e75-b96b-a04599ac3279")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dd807d1e-b48a-4e75-b96b-a04599ac3279")
 		)
 		(pin "DDR_CKE" output
 			(at 228.6 104.14 0)
+			(uuid "c790c5bf-377e-40b6-9177-0f36debb4ce9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c790c5bf-377e-40b6-9177-0f36debb4ce9")
 		)
 		(pin "DDR_CAS" output
 			(at 228.6 96.52 0)
+			(uuid "7bfc784a-756a-430d-81d9-b418ab7a0942")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7bfc784a-756a-430d-81d9-b418ab7a0942")
 		)
 		(pin "DDR_RAS" output
 			(at 228.6 93.98 0)
+			(uuid "12affc02-e644-4e93-b358-50ccaa32f165")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "12affc02-e644-4e93-b358-50ccaa32f165")
 		)
 		(pin "DDR_WE" output
 			(at 228.6 91.44 0)
+			(uuid "a2e943a3-e608-4bd9-a42c-e18c45c7442a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a2e943a3-e608-4bd9-a42c-e18c45c7442a")
 		)
 		(pin "DDR_DQS0_N" output
 			(at 228.6 83.82 0)
+			(uuid "b9da01cb-0aaf-4810-9af7-17409d8dadcd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b9da01cb-0aaf-4810-9af7-17409d8dadcd")
 		)
 		(pin "DDR_DQS1_N" output
 			(at 228.6 77.47 0)
+			(uuid "494bf977-b45a-4482-9fdd-4bdda35a5cdf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "494bf977-b45a-4482-9fdd-4bdda35a5cdf")
 		)
 		(pin "DDR_DQS0_P" output
 			(at 228.6 81.28 0)
+			(uuid "143d5cff-5c14-43ec-86b4-89fad936a24e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "143d5cff-5c14-43ec-86b4-89fad936a24e")
 		)
 		(pin "DDR_DQS1_P" output
 			(at 228.6 74.93 0)
+			(uuid "ffb76384-0107-498d-85fb-dac8f4bd645c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ffb76384-0107-498d-85fb-dac8f4bd645c")
 		)
 		(pin "DDR_DQMU" output
 			(at 228.6 118.11 0)
+			(uuid "e82317f6-8c85-47ec-ae68-2da3c7a5d0da")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e82317f6-8c85-47ec-ae68-2da3c7a5d0da")
 		)
 		(pin "DDR_DQML" output
 			(at 228.6 120.65 0)
+			(uuid "f1668297-ecb2-4bf2-ab1b-4eded52b64b2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f1668297-ecb2-4bf2-ab1b-4eded52b64b2")
 		)
 		(pin "DDR_CS" output
 			(at 228.6 59.69 0)
+			(uuid "dbdc88f5-bd08-4213-a372-e07a3f3f705a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dbdc88f5-bd08-4213-a372-e07a3f3f705a")
 		)
 		(pin "DDR_ODT" output
 			(at 228.6 67.31 0)
+			(uuid "36d9086a-06dc-4edc-9e47-30dcb4a1a0fe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "36d9086a-06dc-4edc-9e47-30dcb4a1a0fe")
 		)
 		(pin "VREF_DDR" input
 			(at 179.07 127 180)
+			(uuid "5c6e16e1-fccf-4d3c-bc24-b23676ad56b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5c6e16e1-fccf-4d3c-bc24-b23676ad56b4")
 		)
 		(pin "VDD_DDR" input
 			(at 179.07 120.65 180)
+			(uuid "7c003014-6773-446f-9813-2378047175d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7c003014-6773-446f-9813-2378047175d7")
 		)
 		(pin "VDD_CORE" input
 			(at 179.07 118.11 180)
+			(uuid "59541441-74f5-430b-adfd-65fbb70ff70b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "59541441-74f5-430b-adfd-65fbb70ff70b")
 		)
 		(pin "VDD" input
 			(at 228.6 43.18 0)
+			(uuid "c4bc6019-981f-49f1-9dce-b6d687a2c0e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c4bc6019-981f-49f1-9dce-b6d687a2c0e3")
 		)
 		(pin "VBUS_OTG" input
 			(at 212.09 142.24 270)
+			(uuid "5eeebeab-19b0-4ef7-9b7b-617bb8a2c00b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5eeebeab-19b0-4ef7-9b7b-617bb8a2c00b")
 		)
 		(pin "VDDA" input
 			(at 179.07 115.57 180)
+			(uuid "552717b7-6dfe-4481-a579-5d6cacbeb491")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "552717b7-6dfe-4481-a579-5d6cacbeb491")
 		)
 		(pin "DDR_RESET" output
 			(at 228.6 63.5 0)
+			(uuid "b99b3cf4-defc-4071-9d87-7e95b1fa153a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b99b3cf4-defc-4071-9d87-7e95b1fa153a")
 		)
 		(pin "SDMMC2_CLK" output
 			(at 179.07 105.41 180)
+			(uuid "ab3641a1-5aba-4c15-aff1-a4277c18e95e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ab3641a1-5aba-4c15-aff1-a4277c18e95e")
 		)
 		(pin "SDMMC2_CMD" bidirectional
 			(at 179.07 102.87 180)
+			(uuid "3b6cad89-9208-44fc-ade0-254122b90e7d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3b6cad89-9208-44fc-ade0-254122b90e7d")
 		)
 		(pin "SDMMC2_D[0..7]" input
 			(at 179.07 100.33 180)
+			(uuid "269f1ada-1056-451b-bce5-494e38c65cdb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "269f1ada-1056-451b-bce5-494e38c65cdb")
 		)
 		(pin "I2C_SCL" output
 			(at 208.28 142.24 270)
+			(uuid "dfe016af-dae3-4e99-8aa3-4b466551d793")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dfe016af-dae3-4e99-8aa3-4b466551d793")
 		)
 		(pin "I2C_SDA" bidirectional
 			(at 205.74 142.24 270)
+			(uuid "19f84ad6-6b99-402f-9eb5-99dd6d6b54e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "19f84ad6-6b99-402f-9eb5-99dd6d6b54e8")
 		)
 		(pin "WKUP1" input
 			(at 200.66 142.24 270)
+			(uuid "7c7048c6-ec87-4eaa-b676-6b2e756fd2a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7c7048c6-ec87-4eaa-b676-6b2e756fd2a4")
 		)
 		(pin "nRST" input
 			(at 203.2 142.24 270)
+			(uuid "d0d10ebf-d7dd-4d37-babf-340f73df897b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d0d10ebf-d7dd-4d37-babf-340f73df897b")
 		)
 		(pin "PWR_ON" output
 			(at 198.12 142.24 270)
+			(uuid "235a33c1-419a-4027-8d63-a70a5d195fe2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "235a33c1-419a-4027-8d63-a70a5d195fe2")
 		)
 		(pin "ETH1_RMII_TXD0" output
 			(at 179.07 73.66 180)
+			(uuid "cab96132-c421-4133-ba58-d1c1a1c1cac5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cab96132-c421-4133-ba58-d1c1a1c1cac5")
 		)
 		(pin "ETH1_RMII_TXD1" output
 			(at 179.07 71.12 180)
+			(uuid "91351564-f499-448b-851c-803e4750a125")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "91351564-f499-448b-851c-803e4750a125")
 		)
 		(pin "ETH1_RMII_TX_EN" output
 			(at 179.07 68.58 180)
+			(uuid "dff24fa0-148f-4539-9130-b5e29fb580de")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dff24fa0-148f-4539-9130-b5e29fb580de")
 		)
 		(pin "ETH1_RMII_CRS_DV" input
 			(at 179.07 58.42 180)
+			(uuid "58ae9757-4080-4258-a5c9-e21b36ae34b0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "58ae9757-4080-4258-a5c9-e21b36ae34b0")
 		)
 		(pin "ETH1_RMII_RXD0" input
 			(at 179.07 60.96 180)
+			(uuid "0573b586-1e44-4fef-a8a4-c97513e034a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0573b586-1e44-4fef-a8a4-c97513e034a7")
 		)
 		(pin "ETH1_RMII_RXD1" input
 			(at 179.07 63.5 180)
+			(uuid "c15d94e8-be9e-49ec-bf48-bbdd84aec921")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c15d94e8-be9e-49ec-bf48-bbdd84aec921")
 		)
 		(pin "ETH1_RMII_REF_CLK" input
 			(at 179.07 55.88 180)
+			(uuid "72bd4596-b876-4095-b6de-a0cf32b78bdc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "72bd4596-b876-4095-b6de-a0cf32b78bdc")
 		)
 		(pin "ETH1_MDC" output
 			(at 179.07 78.74 180)
+			(uuid "abe98e5d-bdd2-4404-939d-11e51f0cb115")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "abe98e5d-bdd2-4404-939d-11e51f0cb115")
 		)
 		(pin "ETH_PHY_INTn" input
 			(at 179.07 83.82 180)
+			(uuid "054abf1d-8b59-41e3-9fa2-d786935e48fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "054abf1d-8b59-41e3-9fa2-d786935e48fd")
 		)
 		(pin "ETH_MDIO" bidirectional
 			(at 179.07 81.28 180)
+			(uuid "dea23c79-9870-4951-82db-4c8c52417802")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dea23c79-9870-4951-82db-4c8c52417802")
 		)
 		(pin "ETH_RESETn" output
 			(at 179.07 86.36 180)
+			(uuid "94b02622-378f-4c08-bde3-e66e4e00fdc7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "94b02622-378f-4c08-bde3-e66e4e00fdc7")
 		)
 		(pin "ETH_CLK" output
 			(at 179.07 48.26 180)
+			(uuid "cf0befc2-8cb2-4e69-b3ce-5a09b73798c6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cf0befc2-8cb2-4e69-b3ce-5a09b73798c6")
 		)
 		(pin "VBUS_HOST" output
 			(at 214.63 142.24 270)
+			(uuid "13409b53-2ee8-42c5-a086-9626bb80eb53")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "13409b53-2ee8-42c5-a086-9626bb80eb53")
 		)
 		(pin "DDR_CLK_N" output
 			(at 228.6 113.03 0)
+			(uuid "e5a2c0e8-c1ea-4eaf-aa85-e533e64b4c6a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e5a2c0e8-c1ea-4eaf-aa85-e533e64b4c6a")
 		)
 		(pin "DDR_CLK_P" output
 			(at 228.6 110.49 0)
+			(uuid "e75499c6-589d-4d18-804e-47a0fb3503bc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e75499c6-589d-4d18-804e-47a0fb3503bc")
 		)
 		(pin "DQ[8..15]" bidirectional
 			(at 228.6 134.62 0)
+			(uuid "f567e3d9-57d3-4914-a543-79923d039e3c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f567e3d9-57d3-4914-a543-79923d039e3c")
 		)
 		(pin "DQ[0..7]" bidirectional
 			(at 228.6 137.16 0)
+			(uuid "7641c73c-6eed-4af0-b49b-b5bae8b5b01e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7641c73c-6eed-4af0-b49b-b5bae8b5b01e")
 		)
 		(pin "SDMMC2_STROBE" output
 			(at 179.07 107.95 180)
+			(uuid "3a2c04e0-56a8-4286-96dd-724584c42541")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3a2c04e0-56a8-4286-96dd-724584c42541")
 		)
 		(pin "SDMMC2_RESET" output
 			(at 179.07 110.49 180)
+			(uuid "1634cbc6-4f8a-413b-aca3-9ac7f306496b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1634cbc6-4f8a-413b-aca3-9ac7f306496b")
 		)
 		(pin "PWR_LP" input
 			(at 195.58 142.24 270)
+			(uuid "599a8a9c-6e07-44c1-9926-c6cfb5a8849d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "599a8a9c-6e07-44c1-9926-c6cfb5a8849d")
 		)
 		(pin "VDD_USB" input
 			(at 217.17 142.24 270)
+			(uuid "2bc8a107-8396-42ff-bac1-f5a0395c3fd3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2bc8a107-8396-42ff-bac1-f5a0395c3fd3")
 		)
 		(instances
 			(project "SBC"
@@ -2893,6 +2907,10 @@
 	(sheet
 		(at 234.95 166.37)
 		(size 85.09 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2922,193 +2940,193 @@
 		)
 		(pin "VREF_DDR" output
 			(at 259.08 166.37 90)
+			(uuid "cc9bf8b1-7ad7-466f-b6b8-831d83d476ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cc9bf8b1-7ad7-466f-b6b8-831d83d476ac")
 		)
 		(pin "VDD_DDR" output
 			(at 262.89 166.37 90)
+			(uuid "4bcb0b84-a594-4741-8974-eb852b96dded")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4bcb0b84-a594-4741-8974-eb852b96dded")
 		)
 		(pin "VDD_CORE" output
 			(at 255.27 166.37 90)
+			(uuid "02127c5b-6e87-42a1-be1e-97a96ef400b9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "02127c5b-6e87-42a1-be1e-97a96ef400b9")
 		)
 		(pin "VDD_AUX" output
 			(at 251.46 166.37 90)
+			(uuid "1cfdee6d-5c96-4b9b-81cf-de646e054054")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1cfdee6d-5c96-4b9b-81cf-de646e054054")
 		)
 		(pin "VDD" output
 			(at 320.04 170.18 0)
+			(uuid "83bdbd8c-e1de-4821-a2a1-0f000b2cd1a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "83bdbd8c-e1de-4821-a2a1-0f000b2cd1a5")
 		)
 		(pin "VDD_NAND" output
 			(at 234.95 181.61 180)
+			(uuid "31cfac71-34b3-4d88-bf09-f79b2096c442")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "31cfac71-34b3-4d88-bf09-f79b2096c442")
 		)
 		(pin "VDD_LDO1" output
 			(at 234.95 185.42 180)
+			(uuid "5b6bc522-537c-42ce-8616-75dc90d5136e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5b6bc522-537c-42ce-8616-75dc90d5136e")
 		)
 		(pin "VDDA" output
 			(at 234.95 177.8 180)
+			(uuid "c3eab60f-49c2-4730-a7ec-74718cb31edf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c3eab60f-49c2-4730-a7ec-74718cb31edf")
 		)
 		(pin "PWRCTRL" input
 			(at 269.24 193.04 270)
+			(uuid "26511437-d11f-48ca-9ff6-f596e35a71f0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "26511437-d11f-48ca-9ff6-f596e35a71f0")
 		)
 		(pin "INTn" output
 			(at 266.7 193.04 270)
+			(uuid "444bbc95-2cd5-475e-8af5-90d9a585554a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "444bbc95-2cd5-475e-8af5-90d9a585554a")
 		)
 		(pin "VBUS_HOST" output
 			(at 297.18 166.37 90)
+			(uuid "df914a80-efae-42e6-9345-707481d40e7c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "df914a80-efae-42e6-9345-707481d40e7c")
 		)
 		(pin "VDD_USB" output
 			(at 299.72 166.37 90)
+			(uuid "5d782ff4-4aef-43ad-8674-19b025e61923")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5d782ff4-4aef-43ad-8674-19b025e61923")
 		)
 		(pin "BSTOUT" output
 			(at 289.56 166.37 90)
+			(uuid "a57c4948-5312-463d-b1da-39eb64da77fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a57c4948-5312-463d-b1da-39eb64da77fd")
 		)
 		(pin "VBUS_OTG" output
 			(at 294.64 166.37 90)
+			(uuid "165925b3-6035-4efd-ae22-31506770cee2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "165925b3-6035-4efd-ae22-31506770cee2")
 		)
 		(pin "SCL" input
 			(at 259.08 193.04 270)
+			(uuid "fadf58d7-f1bf-46ca-9d2c-6c9ea65b822c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fadf58d7-f1bf-46ca-9d2c-6c9ea65b822c")
 		)
 		(pin "WAKEUP" input
 			(at 271.78 193.04 270)
+			(uuid "9320c4e9-064d-4a3d-ae95-3ea825e3ea7f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9320c4e9-064d-4a3d-ae95-3ea825e3ea7f")
 		)
 		(pin "SDA" bidirectional
 			(at 261.62 193.04 270)
+			(uuid "ede7b407-b093-471f-9b7e-a72ef531fb8f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ede7b407-b093-471f-9b7e-a72ef531fb8f")
 		)
 		(pin "RSTn" input
 			(at 264.16 193.04 270)
+			(uuid "154b59ec-c08a-4e37-9bf8-d2c0115d45b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "154b59ec-c08a-4e37-9bf8-d2c0115d45b4")
 		)
 		(pin "VTT_DDR" output
 			(at 266.7 166.37 90)
+			(uuid "c2c932c8-8970-44b2-bade-e0a2586505f0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c2c932c8-8970-44b2-bade-e0a2586505f0")
 		)
 		(instances
 			(project "SBC"
@@ -3121,6 +3139,10 @@
 	(sheet
 		(at 105.41 106.68)
 		(size 41.91 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3150,63 +3172,63 @@
 		)
 		(pin "VDD" input
 			(at 137.16 143.51 270)
+			(uuid "8e20eab5-a816-43f0-88f2-ee2458120b1a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8e20eab5-a816-43f0-88f2-ee2458120b1a")
 		)
 		(pin "CLK" input
 			(at 147.32 115.57 0)
+			(uuid "0c5ec22e-8dc4-40f0-9879-39802282c1fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0c5ec22e-8dc4-40f0-9879-39802282c1fc")
 		)
 		(pin "CMD" bidirectional
 			(at 147.32 113.03 0)
+			(uuid "c50dce30-0777-4c54-9dc6-de6d9cc8ce0b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c50dce30-0777-4c54-9dc6-de6d9cc8ce0b")
 		)
 		(pin "NAND[0..7]" input
 			(at 147.32 110.49 0)
+			(uuid "b4000471-cf8f-41df-b03e-008b2129f429")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b4000471-cf8f-41df-b03e-008b2129f429")
 		)
 		(pin "RESET" input
 			(at 147.32 120.65 0)
+			(uuid "5fce4b60-a8e3-40be-a38e-98756d1a263d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5fce4b60-a8e3-40be-a38e-98756d1a263d")
 		)
 		(pin "DS" output
 			(at 147.32 118.11 0)
+			(uuid "3c1ef18f-e5d7-475b-b3a9-0885ca633ffb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3c1ef18f-e5d7-475b-b3a9-0885ca633ffb")
 		)
 		(instances
 			(project "SBC"
@@ -3219,6 +3241,10 @@
 	(sheet
 		(at 105.41 38.1)
 		(size 41.91 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3248,133 +3274,133 @@
 		)
 		(pin "TXD0" input
 			(at 147.32 73.66 0)
+			(uuid "cde3ed64-7818-440c-8a83-9e26a42fa705")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cde3ed64-7818-440c-8a83-9e26a42fa705")
 		)
 		(pin "RXD1" output
 			(at 147.32 63.5 0)
+			(uuid "35ad16f9-ed25-4583-9d7d-495c8c797474")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "35ad16f9-ed25-4583-9d7d-495c8c797474")
 		)
 		(pin "TXD1" input
 			(at 147.32 71.12 0)
+			(uuid "f99383a6-795d-4ec3-8380-35dc91132f03")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f99383a6-795d-4ec3-8380-35dc91132f03")
 		)
 		(pin "RXD0" output
 			(at 147.32 60.96 0)
+			(uuid "feb06f22-0844-404c-8d4c-7993ea03a4ce")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "feb06f22-0844-404c-8d4c-7993ea03a4ce")
 		)
 		(pin "TXEN" input
 			(at 147.32 68.58 0)
+			(uuid "27665a07-351b-4841-9778-be9b3dd73be2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "27665a07-351b-4841-9778-be9b3dd73be2")
 		)
 		(pin "VDD" input
 			(at 147.32 43.18 0)
+			(uuid "998d71e6-4a2f-485c-9ca0-f13f4e2fe766")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "998d71e6-4a2f-485c-9ca0-f13f4e2fe766")
 		)
 		(pin "ETH_CLK" input
 			(at 147.32 48.26 0)
+			(uuid "2ee1df93-2988-457d-bc27-9aa06dd51846")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2ee1df93-2988-457d-bc27-9aa06dd51846")
 		)
 		(pin "MDC" input
 			(at 147.32 78.74 0)
+			(uuid "178b4136-3ead-4ebe-982c-daf608c5963e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "178b4136-3ead-4ebe-982c-daf608c5963e")
 		)
 		(pin "MDIO" input
 			(at 147.32 81.28 0)
+			(uuid "fbc3d09d-655f-4e4d-acc7-6a808faa52e5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fbc3d09d-655f-4e4d-acc7-6a808faa52e5")
 		)
 		(pin "CRS_DV" output
 			(at 147.32 58.42 0)
+			(uuid "3c181a2b-d023-4136-b7a6-3cfc6fe6065c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3c181a2b-d023-4136-b7a6-3cfc6fe6065c")
 		)
 		(pin "RSTn" input
 			(at 147.32 86.36 0)
+			(uuid "bdd4054c-706a-44ce-9187-ebc9e4281f30")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bdd4054c-706a-44ce-9187-ebc9e4281f30")
 		)
 		(pin "REF_CLK" output
 			(at 147.32 55.88 0)
+			(uuid "cecec39f-7b02-409a-a81e-fa2c0dd0c90e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cecec39f-7b02-409a-a81e-fa2c0dd0c90e")
 		)
 		(pin "INTn" output
 			(at 147.32 83.82 0)
+			(uuid "914bbc5c-c54c-4fc1-ac75-28df3f2a2dd2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "914bbc5c-c54c-4fc1-ac75-28df3f2a2dd2")
 		)
 		(instances
 			(project "SBC"
@@ -3389,4 +3415,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
