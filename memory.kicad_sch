@@ -5766,7 +5766,7 @@
 		)
 		(uuid "ff031b0e-3a25-4c3e-8ea1-c4a5fa698731")
 	)
-	(label "DQ15"
+	(label "DQ13"
 		(at 149.86 135.89 0)
 		(effects
 			(font
@@ -5776,7 +5776,7 @@
 		)
 		(uuid "033a6fb7-2607-46bd-97b9-e7e3795bf952")
 	)
-	(label "DQ14"
+	(label "DQ9"
 		(at 149.86 140.97 0)
 		(effects
 			(font
@@ -5786,7 +5786,7 @@
 		)
 		(uuid "05c16d95-a9c3-470f-96fd-6774a128dcdf")
 	)
-	(label "DQ4"
+	(label "DQ2"
 		(at 149.86 102.87 0)
 		(effects
 			(font
@@ -5896,7 +5896,7 @@
 		)
 		(uuid "4351c2d1-6ff7-4f59-8353-0b9572e49edc")
 	)
-	(label "DQ6"
+	(label "DQ5"
 		(at 149.86 107.95 0)
 		(effects
 			(font
@@ -5946,7 +5946,7 @@
 		)
 		(uuid "59d06d3b-7d24-4f17-a72f-9067d8f8472d")
 	)
-	(label "DQ2"
+	(label "DQ6"
 		(at 149.86 113.03 0)
 		(effects
 			(font
@@ -5976,7 +5976,7 @@
 		)
 		(uuid "6f1a699c-6047-4848-a8fa-95bc2e0b785d")
 	)
-	(label "DQ11"
+	(label "DQ12"
 		(at 149.86 143.51 0)
 		(effects
 			(font
@@ -6046,7 +6046,7 @@
 		)
 		(uuid "84356b70-6fba-441c-8974-72f805e28141")
 	)
-	(label "DQ7"
+	(label "DQ0"
 		(at 149.86 95.25 0)
 		(effects
 			(font
@@ -6076,7 +6076,7 @@
 		)
 		(uuid "8eed3b8e-1ca4-43da-8cad-f2dbb2e6381d")
 	)
-	(label "DQ10"
+	(label "DQ8"
 		(at 149.86 125.73 0)
 		(effects
 			(font
@@ -6086,7 +6086,7 @@
 		)
 		(uuid "9346f098-7ef1-427e-96ab-f959423f1306")
 	)
-	(label "DQ8"
+	(label "DQ14"
 		(at 149.86 133.35 0)
 		(effects
 			(font
@@ -6186,7 +6186,7 @@
 		)
 		(uuid "b5ddb433-b66a-4c55-b787-216a6d21cd17")
 	)
-	(label "DQ5"
+	(label "DQ4"
 		(at 149.86 97.79 0)
 		(effects
 			(font
@@ -6206,7 +6206,7 @@
 		)
 		(uuid "c6e8ecdf-b23a-4067-9fc0-7ccc6ee72b7e")
 	)
-	(label "DQ9"
+	(label "DQ10"
 		(at 149.86 130.81 0)
 		(effects
 			(font
@@ -6246,7 +6246,7 @@
 		)
 		(uuid "d21f33cb-c061-4ca5-98a5-755e0f7338dd")
 	)
-	(label "DQ0"
+	(label "DQ7"
 		(at 149.86 105.41 0)
 		(effects
 			(font
@@ -6286,7 +6286,7 @@
 		)
 		(uuid "e402693a-62e9-4552-8305-325c1b232bf1")
 	)
-	(label "DQ13"
+	(label "DQ11"
 		(at 149.86 128.27 0)
 		(effects
 			(font
@@ -6316,7 +6316,7 @@
 		)
 		(uuid "f868ea50-4264-438f-806d-c2e31d0004a2")
 	)
-	(label "DQ12"
+	(label "DQ15"
 		(at 149.86 138.43 0)
 		(effects
 			(font

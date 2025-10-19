@@ -58,24 +58,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.2,
-          "via_gap": 0.25,
-          "width": 0.1029
-        },
-        {
-          "gap": 0.2,
-          "via_gap": 0.25,
-          "width": 0.1095
-        },
-        {
-          "gap": 0.1,
-          "via_gap": 0.25,
-          "width": 0.1328
-        },
-        {
-          "gap": 0.1,
-          "via_gap": 0.25,
-          "width": 0.1422
+          "gap": 0.2032,
+          "via_gap": 0.2032,
+          "width": 0.1217
         }
       ],
       "drc_exclusions": [],
@@ -522,7 +507,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.08,
+        "clearance": 0.1,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
@@ -540,9 +525,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.08,
+        "clearance": 0.1,
         "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1095,
         "line_style": 0,
         "microvia_diameter": 0.6858,
@@ -558,9 +542,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.08,
+        "clearance": 0.1,
         "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.6858,
@@ -576,9 +559,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.08,
+        "clearance": 0.1,
         "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1095,
         "line_style": 0,
         "microvia_diameter": 0.6858,
@@ -594,9 +576,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.08,
+        "clearance": 0.1,
         "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1095,
         "line_style": 0,
         "microvia_diameter": 0.6858,
@@ -612,9 +593,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.08,
+        "clearance": 0.1,
         "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.6858,
@@ -630,9 +610,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.08,
+        "clearance": 0.1,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.6858,
@@ -648,9 +627,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.08,
+        "clearance": 0.1,
         "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.6858,
@@ -666,9 +644,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.08,
+        "clearance": 0.1,
         "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.6858,
