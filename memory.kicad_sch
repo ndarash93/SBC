@@ -5946,7 +5946,7 @@
 		)
 		(uuid "59d06d3b-7d24-4f17-a72f-9067d8f8472d")
 	)
-	(label "DQ6"
+	(label "DQ4"
 		(at 149.86 113.03 0)
 		(effects
 			(font
@@ -6186,7 +6186,7 @@
 		)
 		(uuid "b5ddb433-b66a-4c55-b787-216a6d21cd17")
 	)
-	(label "DQ4"
+	(label "DQ6"
 		(at 149.86 97.79 0)
 		(effects
 			(font
@@ -7631,7 +7631,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 171.45 22.352 0)
 			(effects
 				(font
@@ -9545,7 +9545,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 171.45 31.242 0)
 			(effects
 				(font
@@ -11466,7 +11466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 171.45 40.132 0)
 			(effects
 				(font
