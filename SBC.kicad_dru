@@ -3,7 +3,7 @@
 (rule "DDR CLOCK Length Clock"
 	(condition "A.NetClass == 'DDR_CLOCK'")
 	(constraint skew (min -1mm) (max 1mm) (opt 0mm))
-	(constraint length (min 40mm) (max 41mm) (opt 40.5mm)))
+	(constraint length (min 50mm) (max 51mm) (opt 50.5mm)))
 
 (rule "DDR Data Net Length MSB"
 	(condition "A.NetClass == 'DDR_DATA_U'")
