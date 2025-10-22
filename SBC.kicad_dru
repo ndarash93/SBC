@@ -3,21 +3,21 @@
 (rule "DDR CLOCK Length Clock"
 	(condition "A.NetClass == 'DDR_CLOCK'")
 	(constraint skew (min -1mm) (max 1mm) (opt 0mm))
-	(constraint length (min 50mm) (max 51mm) (opt 50.5mm)))
+	(constraint length (min 49mm) (max 51mm) (opt 50mm)))
 
 (rule "DDR Data Net Length MSB"
 	(condition "A.NetClass == 'DDR_DATA_U'")
-	(constraint length (min 31mm) (max 45mm) (opt 35mm))
+	(constraint length (min 39mm) (max 41mm) (opt 40mm))
 	(constraint skew (min -1.0mm) (max 1.0mm) (opt 0mm)))
 
 (rule "DDR Data Net Length LSB"
 	(condition "A.NetClass == 'DDR_DATA_L'")
-	(constraint length (min 31mm) (max 45mm) (opt 40mm))
+	(constraint length (min 39mm) (max 41mm) (opt 40mm))
 	(constraint skew (min -1.0mm) (max 1.0mm) (opt 0mm)))
 
 (rule "DDR Address and Control"
 	(condition "A.NetClass == 'DDR_ADDRESS'")
-	(constraint length (min 39mm) (max 41mm) (opt 40mm))
+	(constraint length (min 49mm) (max 51mm) (opt 50mm))
 	(constraint skew (min -1.0mm) (max 1.0mm) (opt 0mm)))
 
 (rule "EMMC Data Net Length"
