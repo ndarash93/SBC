@@ -53,3 +53,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+#pycharm i think
+/.idea
+*/.idea

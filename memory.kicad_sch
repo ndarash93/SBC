@@ -5936,7 +5936,7 @@
 		)
 		(uuid "3ffb2d12-490f-4fd1-aaa9-43faf83ddc72")
 	)
-	(label "DDR_BA1_R"
+	(label "BA1_R"
 		(at 151.13 33.02 0)
 		(effects
 			(font
@@ -5956,7 +5956,7 @@
 		)
 		(uuid "4351c2d1-6ff7-4f59-8353-0b9572e49edc")
 	)
-	(label "DDR_BA0_R"
+	(label "BA0_R"
 		(at 151.13 30.48 0)
 		(effects
 			(font
@@ -5976,7 +5976,7 @@
 		)
 		(uuid "4c4a91cf-c564-4468-9034-ba2d736f555f")
 	)
-	(label "DDR_BA2_R"
+	(label "BA2_R"
 		(at 151.13 35.56 0)
 		(effects
 			(font
