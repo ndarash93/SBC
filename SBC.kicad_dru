@@ -3,7 +3,7 @@
 (rule "DDR CLOCK Length Clock"
 	(condition "A.NetClass == 'DDR_CLOCK'")
 	(constraint skew (min -1mm) (max 1mm) (opt 0mm))
-	(constraint length (min 49mm) (max 51mm) (opt 50mm)))
+	(constraint length (min 44mm) (max 46mm) (opt 45mm)))
 
 (rule "DDR Data Net Length MSB"
 	(condition "A.NetClass == 'DDR_DATA_U'")
@@ -12,7 +12,7 @@
 
 (rule "DDR Data Net Length LSB"
 	(condition "A.NetClass == 'DDR_DATA_L'")
-	(constraint length (min 44mm) (max 46mm) (opt 45mm))
+	(constraint length (min 44mm) (max 45mm) (opt 44.5mm))
 	(constraint skew (min -1.0mm) (max 1.0mm) (opt 0mm)))
 
 #(rule "DDR Address and Control"
@@ -26,75 +26,75 @@
 	(constraint skew (min -5mm) (max 5mm) (opt 0mm)))
 
 # Copy after here
-(rule "AC Signal Length Match A7"
-	(condition "A.NetName == '/MEMORY/A7_R'")
-	(constraint length (min 45.1mm) (max 47.1mm) (opt 46.1mm)))
-(rule "AC Signal Length Match A10"
-	(condition "A.NetName == '/MEMORY/A10_R'")
-	(constraint length (min 43.8645mm) (max 45.8645mm) (opt 44.8645mm)))
-(rule "AC Signal Length Match A15"
-	(condition "A.NetName == '/MEMORY/A15_R'")
-	(constraint length (min 46.01mm) (max 48.01mm) (opt 47.01mm)))
-(rule "AC Signal Length Match BA0"
-	(condition "A.NetName == '/MEMORY/BA0_R'")
-	(constraint length (min 46.975699999999996mm) (max 48.975699999999996mm) (opt 47.975699999999996mm)))
-(rule "AC Signal Length Match BA1"
-	(condition "A.NetName == '/MEMORY/BA1_R'")
-	(constraint length (min 46.2686mm) (max 48.2686mm) (opt 47.2686mm)))
-(rule "AC Signal Length Match BA2"
-	(condition "A.NetName == '/MEMORY/BA2_R'")
-	(constraint length (min 45.4mm) (max 47.4mm) (opt 46.4mm)))
-(rule "AC Signal Length Match CKE"
-	(condition "A.NetName == '/MEMORY/CKE_R'")
-	(constraint length (min 44.1473mm) (max 46.1473mm) (opt 45.1473mm)))
-(rule "AC Signal Length Match A14"
-	(condition "A.NetName == '/MEMORY/A14_R'")
-	(constraint length (min 46.11mm) (max 48.11mm) (opt 47.11mm)))
-(rule "AC Signal Length Match A13"
-	(condition "A.NetName == '/MEMORY/A13_R'")
-	(constraint length (min 46.8343mm) (max 48.8343mm) (opt 47.8343mm)))
-(rule "AC Signal Length Match A12"
-	(condition "A.NetName == '/MEMORY/A12_R'")
-	(constraint length (min 46.8343mm) (max 48.8343mm) (opt 47.8343mm)))
-(rule "AC Signal Length Match A11"
-	(condition "A.NetName == '/MEMORY/A11_R'")
-	(constraint length (min 45.71mm) (max 47.71mm) (opt 46.71mm)))
-(rule "AC Signal Length Match A9"
-	(condition "A.NetName == '/MEMORY/A9_R'")
-	(constraint length (min 43.723mm) (max 45.723mm) (opt 44.723mm)))
-(rule "AC Signal Length Match A0"
-	(condition "A.NetName == '/MEMORY/A0_R'")
-	(constraint length (min 45.199999999999996mm) (max 47.199999999999996mm) (opt 46.199999999999996mm)))
-(rule "AC Signal Length Match A1"
-	(condition "A.NetName == '/MEMORY/A1_R'")
-	(constraint length (min 45.7029mm) (max 47.7029mm) (opt 46.7029mm)))
-(rule "AC Signal Length Match A2"
-	(condition "A.NetName == '/MEMORY/A2_R'")
-	(constraint length (min 45.137299999999996mm) (max 47.137299999999996mm) (opt 46.137299999999996mm)))
-(rule "AC Signal Length Match A3"
-	(condition "A.NetName == '/MEMORY/A3_R'")
-	(constraint length (min 46.5515mm) (max 48.5515mm) (opt 47.5515mm)))
-(rule "AC Signal Length Match A4"
-	(condition "A.NetName == '/MEMORY/A4_R'")
-	(constraint length (min 46.8343mm) (max 48.8343mm) (opt 47.8343mm)))
-(rule "AC Signal Length Match A5"
-	(condition "A.NetName == '/MEMORY/A5_R'")
-	(constraint length (min 43.157399999999996mm) (max 45.157399999999996mm) (opt 44.157399999999996mm)))
 (rule "AC Signal Length Match A6"
 	(condition "A.NetName == '/MEMORY/A6_R'")
-	(constraint length (min 40.3289mm) (max 42.3289mm) (opt 41.3289mm)))
-(rule "AC Signal Length Match A8"
-	(condition "A.NetName == '/MEMORY/A8_R'")
-	(constraint length (min 41.3189mm) (max 43.3189mm) (opt 42.3189mm)))
-(rule "AC Signal Length Match CS"
-	(condition "A.NetName == '/MEMORY/CS_R'")
-	(constraint length (min 46.699999999999996mm) (max 48.699999999999996mm) (opt 47.699999999999996mm)))
-(rule "AC Signal Length Match WE"
-	(condition "A.NetName == '/MEMORY/WE_R'")
-	(constraint length (min 45.6mm) (max 47.6mm) (opt 46.6mm)))
-(rule "AC Signal Length Match CAS"
-	(condition "A.NetName == '/MEMORY/CAS_R'")
-	(constraint length (min 46.6929mm) (max 48.6929mm) (opt 47.6929mm)))
+	(constraint length (min 28.0745mm) (max 30.0745mm) (opt 29.0745mm)))
 (rule "AC Signal Length Match RAS"
 	(condition "A.NetName == '/MEMORY/RAS_R'")
-	(constraint length (min 43.41mm) (max 45.41mm) (opt 44.41mm)))
+	(constraint length (min 36.0577mm) (max 38.0577mm) (opt 37.0577mm)))
+(rule "AC Signal Length Match CAS"
+	(condition "A.NetName == '/MEMORY/CAS_R'")
+	(constraint length (min 34.1263mm) (max 36.1263mm) (opt 35.1263mm)))
+(rule "AC Signal Length Match A7"
+	(condition "A.NetName == '/MEMORY/A7_R'")
+	(constraint length (min 30.1695mm) (max 32.1695mm) (opt 31.1695mm)))
+(rule "AC Signal Length Match A10"
+	(condition "A.NetName == '/MEMORY/A10_R'")
+	(constraint length (min 35.8636mm) (max 37.8636mm) (opt 36.8636mm)))
+(rule "AC Signal Length Match A15"
+	(condition "A.NetName == '/MEMORY/A15_R'")
+	(constraint length (min 31.7765mm) (max 33.7765mm) (opt 32.7765mm)))
+(rule "AC Signal Length Match BA0"
+	(condition "A.NetName == '/MEMORY/BA0_R'")
+	(constraint length (min 34.6383mm) (max 36.6383mm) (opt 35.6383mm)))
+(rule "AC Signal Length Match BA1"
+	(condition "A.NetName == '/MEMORY/BA1_R'")
+	(constraint length (min 31.2594mm) (max 33.2594mm) (opt 32.2594mm)))
+(rule "AC Signal Length Match BA2"
+	(condition "A.NetName == '/MEMORY/BA2_R'")
+	(constraint length (min 33.6292mm) (max 35.6292mm) (opt 34.6292mm)))
+(rule "AC Signal Length Match CKE"
+	(condition "A.NetName == '/MEMORY/CKE_R'")
+	(constraint length (min 36.1121mm) (max 38.1121mm) (opt 37.1121mm)))
+(rule "AC Signal Length Match A14"
+	(condition "A.NetName == '/MEMORY/A14_R'")
+	(constraint length (min 35.1464mm) (max 37.1464mm) (opt 36.1464mm)))
+(rule "AC Signal Length Match A13"
+	(condition "A.NetName == '/MEMORY/A13_R'")
+	(constraint length (min 30.8423mm) (max 32.8423mm) (opt 31.8423mm)))
+(rule "AC Signal Length Match A12"
+	(condition "A.NetName == '/MEMORY/A12_R'")
+	(constraint length (min 34.8435mm) (max 36.8435mm) (opt 35.8435mm)))
+(rule "AC Signal Length Match A11"
+	(condition "A.NetName == '/MEMORY/A11_R'")
+	(constraint length (min 35.5606mm) (max 37.5606mm) (opt 36.5606mm)))
+(rule "AC Signal Length Match A9"
+	(condition "A.NetName == '/MEMORY/A9_R'")
+	(constraint length (min 29.628mm) (max 31.628mm) (opt 30.628mm)))
+(rule "AC Signal Length Match A0"
+	(condition "A.NetName == '/MEMORY/A0_R'")
+	(constraint length (min 32.0222mm) (max 34.0222mm) (opt 33.0222mm)))
+(rule "AC Signal Length Match A1"
+	(condition "A.NetName == '/MEMORY/A1_R'")
+	(constraint length (min 31.459399999999995mm) (max 33.459399999999995mm) (opt 32.459399999999995mm)))
+(rule "AC Signal Length Match A2"
+	(condition "A.NetName == '/MEMORY/A2_R'")
+	(constraint length (min 31.997899999999994mm) (max 33.997899999999994mm) (opt 32.997899999999994mm)))
+(rule "AC Signal Length Match A3"
+	(condition "A.NetName == '/MEMORY/A3_R'")
+	(constraint length (min 34.3879mm) (max 36.3879mm) (opt 35.3879mm)))
+(rule "AC Signal Length Match A4"
+	(condition "A.NetName == '/MEMORY/A4_R'")
+	(constraint length (min 29.7866mm) (max 31.7866mm) (opt 30.7866mm)))
+(rule "AC Signal Length Match A5"
+	(condition "A.NetName == '/MEMORY/A5_R'")
+	(constraint length (min 33.8908mm) (max 35.8908mm) (opt 34.8908mm)))
+(rule "AC Signal Length Match A8"
+	(condition "A.NetName == '/MEMORY/A8_R'")
+	(constraint length (min 31.918mm) (max 33.918mm) (opt 32.918mm)))
+(rule "AC Signal Length Match CS"
+	(condition "A.NetName == '/MEMORY/CS_R'")
+	(constraint length (min 35.105mm) (max 37.105mm) (opt 36.105mm)))
+(rule "AC Signal Length Match WE"
+	(condition "A.NetName == '/MEMORY/WE_R'")
+	(constraint length (min 34.8435mm) (max 36.8435mm) (opt 35.8435mm)))
