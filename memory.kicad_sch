@@ -5756,7 +5756,7 @@
 		)
 		(uuid "033a6fb7-2607-46bd-97b9-e7e3795bf952")
 	)
-	(label "DQ9"
+	(label "DQ10"
 		(at 149.86 140.97 0)
 		(effects
 			(font
@@ -6196,7 +6196,7 @@
 		)
 		(uuid "90e29662-bd31-41c1-b0e0-64049ef272ad")
 	)
-	(label "DQ8"
+	(label "DQ9"
 		(at 149.86 125.73 0)
 		(effects
 			(font
@@ -6376,7 +6376,7 @@
 		)
 		(uuid "c6e8ecdf-b23a-4067-9fc0-7ccc6ee72b7e")
 	)
-	(label "DQ10"
+	(label "DQ8"
 		(at 149.86 130.81 0)
 		(effects
 			(font
