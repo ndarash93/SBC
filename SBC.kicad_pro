@@ -809,6 +809,12 @@
       "/Ethernet/MODE2": [
         "RMII"
       ],
+      "/Ethernet/RXI_N": [
+        "ETH_Pair"
+      ],
+      "/Ethernet/RXI_P": [
+        "ETH_Pair"
+      ],
       "/Ethernet/RXN": [
         "ETH_Pair"
       ],
@@ -823,6 +829,12 @@
       ],
       "/Ethernet/TXEN": [
         "RMII"
+      ],
+      "/Ethernet/TXI_N": [
+        "ETH_Pair"
+      ],
+      "/Ethernet/TXI_P": [
+        "ETH_Pair"
       ],
       "/Ethernet/TXN": [
         "ETH_Pair"
