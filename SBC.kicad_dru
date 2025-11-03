@@ -12,7 +12,7 @@
 
 (rule "DDR Data Net Length LSB"
 	(condition "A.NetClass == 'DDR_DATA_L'")
-	(constraint length (min 44mm) (max 45mm) (opt 44.5mm))
+	(constraint length (min 24mm) (max 44mm) (opt 34mm))
 	(constraint skew (min -1.0mm) (max 1.0mm) (opt 0mm)))
 
 #(rule "DDR Address and Control"
@@ -22,7 +22,7 @@
 
 (rule "EMMC Data Net Length"
 	(condition "A.NetClass == 'EMMC'")
-	(constraint length (min 45mm) (max 55mm) (opt 50mm))
+	(constraint length (min 24mm) (max 44mm) (opt 34mm))
 	(constraint skew (min -5mm) (max 5mm) (opt 0mm)))
 
 # Copy after here
