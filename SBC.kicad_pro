@@ -809,6 +809,9 @@
       "/Ethernet/MODE2": [
         "RMII"
       ],
+      "/Ethernet/REFCLKO": [
+        "RMII"
+      ],
       "/Ethernet/RXI_N": [
         "ETH_Pair"
       ],

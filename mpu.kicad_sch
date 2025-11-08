@@ -13503,6 +13503,12 @@
 		(uuid "06ae1d21-5223-4671-9074-a124c7697519")
 	)
 	(junction
+		(at 731.52 478.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1053264c-c086-4c76-bcd6-d5d4fd0f26f7")
+	)
+	(junction
 		(at 730.25 351.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13575,12 +13581,6 @@
 		(uuid "32ec6aa1-0243-47ea-99a4-6afd7f6ca47c")
 	)
 	(junction
-		(at 730.25 478.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33bba82a-e0ec-4211-a43a-f11a6f76990c")
-	)
-	(junction
 		(at 717.55 326.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13591,6 +13591,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3703d466-63ad-427b-8fdc-315a46c13528")
+	)
+	(junction
+		(at 754.38 453.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3760fe5f-e001-4280-a853-4d18713055e8")
+	)
+	(junction
+		(at 742.95 478.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b7a48a6-10e0-4d8e-b71b-0666a47d504d")
 	)
 	(junction
 		(at 692.15 402.59)
@@ -13689,12 +13701,6 @@
 		(uuid "a30fe625-d37b-4805-87c5-75e864c2d9f2")
 	)
 	(junction
-		(at 704.85 453.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4727ff7-c13e-4e58-89c6-0fa7433173da")
-	)
-	(junction
 		(at 746.76 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13777,12 +13783,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f07733e6-86b5-4e57-96b3-c5fed6a4cb36")
-	)
-	(junction
-		(at 754.38 453.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0c0499b-5e0b-42df-a4be-7e2729077898")
 	)
 	(no_connect
 		(at 436.88 110.49)
@@ -14763,16 +14763,6 @@
 	)
 	(wire
 		(pts
-			(xy 679.45 453.39) (xy 704.85 453.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20530b3d-4335-4f9c-a66d-1960167188b2")
-	)
-	(wire
-		(pts
 			(xy 579.12 374.65) (xy 588.01 374.65)
 		)
 		(stroke
@@ -15541,6 +15531,16 @@
 		)
 		(uuid "414fb7ea-3a28-4302-be95-c88315bf7d8a")
 	)
+	(wire
+		(pts
+			(xy 769.62 453.39) (xy 754.38 453.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419801bb-a2b2-4224-9233-e9300b2210a1")
+	)
 	(bus
 		(pts
 			(xy 331.47 267.97) (xy 331.47 265.43)
@@ -15780,16 +15780,6 @@
 			(type default)
 		)
 		(uuid "4ba10d4c-af05-4011-8304-834e75933db1")
-	)
-	(wire
-		(pts
-			(xy 754.38 453.39) (xy 772.16 453.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ba5af90-3993-44c4-83fa-a2b1a6ef768d")
 	)
 	(wire
 		(pts
@@ -16243,16 +16233,6 @@
 	)
 	(wire
 		(pts
-			(xy 607.06 198.12) (xy 629.92 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "605b9d4f-0248-4e5c-b7d8-3eea1e74ef8f")
-	)
-	(wire
-		(pts
 			(xy 363.22 179.07) (xy 334.01 179.07)
 		)
 		(stroke
@@ -16450,16 +16430,6 @@
 			(type default)
 		)
 		(uuid "6b3e2a83-0f5b-4005-a72d-c337b1f5be66")
-	)
-	(wire
-		(pts
-			(xy 593.09 356.87) (xy 579.12 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b6981cb-c13b-47d0-932e-0f11f9be5d12")
 	)
 	(bus
 		(pts
@@ -16783,7 +16753,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 110.49) (xy 429.26 101.6)
+			(xy 429.26 97.79) (xy 429.26 110.49)
 		)
 		(stroke
 			(width 0)
@@ -17130,16 +17100,6 @@
 			(type default)
 		)
 		(uuid "8a8f3804-cc18-48d2-a535-ad169e925199")
-	)
-	(wire
-		(pts
-			(xy 679.45 478.79) (xy 704.85 478.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aaafffe-7d54-462f-b6ae-8f7f11eb741e")
 	)
 	(wire
 		(pts
@@ -17713,7 +17673,7 @@
 	)
 	(wire
 		(pts
-			(xy 717.55 478.79) (xy 730.25 478.79)
+			(xy 717.55 478.79) (xy 731.52 478.79)
 		)
 		(stroke
 			(width 0)
@@ -17800,16 +17760,6 @@
 			(type default)
 		)
 		(uuid "b24b6343-529d-48cb-bf82-75e126348aa7")
-	)
-	(wire
-		(pts
-			(xy 730.25 478.79) (xy 755.65 478.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b282bef9-856d-4b34-a3c0-ac23be898a1e")
 	)
 	(wire
 		(pts
@@ -18043,13 +17993,23 @@
 	)
 	(wire
 		(pts
-			(xy 637.54 198.12) (xy 661.67 198.12)
+			(xy 731.52 478.79) (xy 742.95 478.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc9a7702-66c8-46ab-bf6c-54fb5a18cd5b")
+		(uuid "bd027382-82e4-4050-8738-13c6b1968282")
+	)
+	(wire
+		(pts
+			(xy 742.95 478.79) (xy 753.11 478.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0c9c4b-9a11-45bd-a893-abe5d0b0c001")
 	)
 	(wire
 		(pts
@@ -18903,16 +18863,6 @@
 	)
 	(wire
 		(pts
-			(xy 704.85 453.39) (xy 722.63 453.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eea4eff3-25a8-486a-822a-d78ed3def800")
-	)
-	(wire
-		(pts
 			(xy 363.22 173.99) (xy 334.01 173.99)
 		)
 		(stroke
@@ -19250,16 +19200,6 @@
 			(type default)
 		)
 		(uuid "ffe80680-f127-4080-ba54-e76b20bf7c87")
-	)
-	(label "ETH_CLK_R"
-		(at 607.06 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00b451dd-6ec1-41aa-b52b-d6eab051161a")
 	)
 	(label "A6"
 		(at 363.22 176.53 180)
@@ -19791,16 +19731,6 @@
 		)
 		(uuid "3264a199-ba20-459a-8f72-f75699ff3b89")
 	)
-	(label "VDD1V2_DSI_PHY"
-		(at 697.23 453.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "32909ac9-71c6-4be7-ac32-cfeba0739c24")
-	)
 	(label "VDD_CORE"
 		(at 485.14 97.79 270)
 		(effects
@@ -19962,7 +19892,7 @@
 		(uuid "44e9fec1-3f5a-488d-87f9-04af51f61f67")
 	)
 	(label "VDDA"
-		(at 429.26 101.6 270)
+		(at 429.26 97.79 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20281,16 +20211,6 @@
 		)
 		(uuid "6b1bfaad-4fa3-466b-8a70-d580c0c5b6be")
 	)
-	(label "VDD1V2_DSI_REG"
-		(at 722.63 453.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6be232e0-426c-4e3a-9886-01c4e0c5ab58")
-	)
 	(label "VDD"
 		(at 388.62 97.79 270)
 		(effects
@@ -20340,16 +20260,6 @@
 			(justify right bottom)
 		)
 		(uuid "71872761-9934-4425-b217-5fb710b58421")
-	)
-	(label "VDDA"
-		(at 684.53 478.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7209c243-3c49-4e5c-a9f6-8b777359a347")
 	)
 	(label "VDD3V3_USB"
 		(at 819.15 453.39 180)
@@ -20452,7 +20362,7 @@
 		(uuid "7d29c659-47b7-4a0b-9a8c-5722fb87fcf0")
 	)
 	(label "VDDA1V8_REG"
-		(at 748.03 453.39 180)
+		(at 769.62 453.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20740,16 +20650,6 @@
 			(justify right bottom)
 		)
 		(uuid "964ccdd7-0f45-41a4-a595-ea6e5df5a98f")
-	)
-	(label "ETH_CLK_R"
-		(at 593.09 356.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "964df996-135d-4ff2-8329-f9a7e5fcdd9d")
 	)
 	(label "A9"
 		(at 363.22 184.15 180)
@@ -21140,16 +21040,6 @@
 			(justify right bottom)
 		)
 		(uuid "b93cc715-8dab-4d2e-8458-570bff018b0f")
-	)
-	(label "VDD1V8_DSI"
-		(at 772.16 453.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b9ea7f82-b68c-44b7-8abe-a6d41cae63ea")
 	)
 	(label "DDR_RESETn"
 		(at 755.65 402.59 0)
@@ -21612,7 +21502,7 @@
 		(uuid "eb71e143-8f30-4f60-8c27-a178bab4352b")
 	)
 	(label "VDDA"
-		(at 755.65 478.79 180)
+		(at 753.11 478.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22130,17 +22020,6 @@
 		)
 		(uuid "a4f10b9e-b6fb-4f1a-9332-07275dd92d43")
 	)
-	(hierarchical_label "ETH_CLK"
-		(shape output)
-		(at 661.67 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a76c0f01-ec92-4d48-a2e6-d98efc771f7b")
-	)
 	(hierarchical_label "VREF_DDR"
 		(shape input)
 		(at 819.15 427.99 0)
@@ -22187,7 +22066,7 @@
 	)
 	(hierarchical_label "VDDA"
 		(shape input)
-		(at 704.85 478.79 0)
+		(at 753.11 478.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22416,7 +22295,7 @@
 	)
 	(symbol
 		(lib_id "power:VSSA")
-		(at 730.25 486.41 180)
+		(at 742.95 486.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22425,7 +22304,7 @@
 		(fields_autoplaced yes)
 		(uuid "03b1bbb7-c78f-4457-820d-22b0b07e612f")
 		(property "Reference" "#PWR0149"
-			(at 730.25 482.6 0)
+			(at 742.95 482.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22434,7 +22313,7 @@
 			)
 		)
 		(property "Value" "VSSA"
-			(at 730.25 491.49 0)
+			(at 742.95 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22442,7 +22321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 730.25 486.41 0)
+			(at 742.95 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22451,7 +22330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 730.25 486.41 0)
+			(at 742.95 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22460,7 +22339,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 730.25 486.41 0)
+			(at 742.95 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24384,72 +24263,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 704.85 461.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27b0dcec-fdd1-4028-a4ed-f150ee835654")
-		(property "Reference" "#PWR0138"
-			(at 704.85 467.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 704.85 466.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 704.85 461.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 704.85 461.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 704.85 461.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a259c50c-725a-43f1-b7c1-9d2488a46101")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
-					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 692.15 334.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26352,84 +26165,6 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:R")
-		(at 633.73 198.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52b500e0-c210-43ba-88be-bc62019a95c0")
-		(property "Reference" "R31"
-			(at 632.4599 195.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22"
-			(at 634.9999 195.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 633.73 193.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 635 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 633.73 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Precision" "1%"
-			(at 637.286 195.326 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "74cd027b-0f9e-4f05-8848-1e1c720d2401")
-		)
-		(pin "1"
-			(uuid "562a296c-ca49-425c-85df-f8609f064017")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Resistor:R")
 		(at 723.9 284.48 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27121,7 +26856,7 @@
 	)
 	(symbol
 		(lib_id "power:VSSA")
-		(at 679.45 486.41 180)
+		(at 731.52 486.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27130,7 +26865,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ca8779c-1774-47af-8260-1865180e86a2")
 		(property "Reference" "#PWR0146"
-			(at 679.45 482.6 0)
+			(at 731.52 482.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27139,7 +26874,7 @@
 			)
 		)
 		(property "Value" "VSSA"
-			(at 679.45 491.49 0)
+			(at 731.52 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27147,7 +26882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 679.45 486.41 0)
+			(at 731.52 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27156,7 +26891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 679.45 486.41 0)
+			(at 731.52 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27165,7 +26900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 679.45 486.41 0)
+			(at 731.52 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30962,72 +30697,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 679.45 461.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ec0ebd9-3a83-4635-bf8d-69fff6971242")
-		(property "Reference" "#PWR0137"
-			(at 679.45 467.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 679.45 466.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 679.45 461.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 679.45 461.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 679.45 461.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46cf07ba-4723-427f-af9a-d5e862f6e7fc")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
-					(reference "#PWR0137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Capacitor:C")
 		(at 717.55 330.2 0)
 		(unit 1)
@@ -31736,91 +31405,6 @@
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
 					(reference "#PWR0262")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Capacitor:C")
-		(at 679.45 457.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af7963c6-4242-4ab5-b5ba-6bc61f9ed97a")
-		(property "Reference" "C47"
-			(at 683.26 458.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 683.26 455.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 680.4152 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 680.72 473.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLCC"
-			(at 686.054 461.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 679.45 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 683.26 458.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "ae636541-dc09-4e73-9f9b-5feebf6c510c")
-		)
-		(pin "2"
-			(uuid "aece588d-cb62-4a2a-87bb-01b91db78e44")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
-					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -32542,7 +32126,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C")
-		(at 679.45 482.6 0)
+		(at 731.52 482.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32550,7 +32134,7 @@
 		(dnp no)
 		(uuid "b8a14f51-f24f-47ea-ad1e-da13475032c0")
 		(property "Reference" "C53"
-			(at 683.26 483.87 0)
+			(at 735.33 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32559,7 +32143,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 683.26 481.3299 0)
+			(at 735.33 481.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32568,7 +32152,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 680.4152 494.03 0)
+			(at 732.4852 494.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32577,7 +32161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 680.72 499.11 0)
+			(at 732.79 499.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32586,7 +32170,7 @@
 			)
 		)
 		(property "Description" "MLCC"
-			(at 686.054 486.41 0)
+			(at 738.124 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32594,7 +32178,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 679.45 496.57 0)
+			(at 731.52 496.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32602,7 +32186,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 683.26 483.8699 0)
+			(at 735.33 483.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32964,7 +32548,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C")
-		(at 730.25 482.6 0)
+		(at 742.95 482.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32972,7 +32556,7 @@
 		(dnp no)
 		(uuid "bc5f7e78-166c-4775-995e-a36691978e0c")
 		(property "Reference" "C56"
-			(at 734.06 483.87 0)
+			(at 746.76 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32981,7 +32565,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 734.06 481.3299 0)
+			(at 746.76 481.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32990,7 +32574,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 731.2152 494.03 0)
+			(at 743.9152 494.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32999,7 +32583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 731.52 499.11 0)
+			(at 744.22 499.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33008,7 +32592,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 736.854 486.41 0)
+			(at 749.554 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33016,7 +32600,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 730.25 496.57 0)
+			(at 742.95 496.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33024,7 +32608,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 734.06 483.8699 0)
+			(at 746.76 483.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34458,91 +34042,6 @@
 			(project "SBC"
 				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Capacitor:C")
-		(at 704.85 457.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d90cf442-7c18-4d3a-8d21-2dffc68bb746")
-		(property "Reference" "C48"
-			(at 708.66 458.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 708.66 455.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 705.8152 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 706.12 473.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLCC"
-			(at 711.454 461.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 704.85 471.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 708.66 458.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "6ba0d685-16f5-4afe-bd86-28e9fb2febd8")
-		)
-		(pin "2"
-			(uuid "dcb10d94-83ac-4d73-9572-2dfa323a0244")
-		)
-		(instances
-			(project "SBC"
-				(path "/21bb932a-ec67-4661-9215-0551f718d1c0/3336208b-c91e-4833-a187-5ed2272e0a27"
-					(reference "C48")
 					(unit 1)
 				)
 			)

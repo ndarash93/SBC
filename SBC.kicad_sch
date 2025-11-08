@@ -1000,16 +1000,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 48.26) (xy 179.07 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c65612d3-68be-4d20-9697-dce2c022ad90")
-	)
-	(wire
-		(pts
 			(xy 203.2 208.28) (xy 264.16 208.28)
 		)
 		(stroke
@@ -1870,29 +1860,6 @@
 		(uuid "f6e35a4b-839c-40b0-bc1e-0791a20aa711")
 		(property "Netclass" "RMII"
 			(at 150.4696 63.4746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 0.0254)
-		(shape round)
-		(at 149.86 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6e727a1-3122-41bd-bb46-1c735b2abf77")
-		(property "Netclass" "RMII"
-			(at 150.4696 48.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,16 +3292,6 @@
 		(pin "VDD" input
 			(at 147.32 43.18 0)
 			(uuid "998d71e6-4a2f-485c-9ca0-f13f4e2fe766")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ETH_CLK" input
-			(at 147.32 48.26 0)
-			(uuid "2ee1df93-2988-457d-bc27-9aa06dd51846")
 			(effects
 				(font
 					(size 1.27 1.27)
