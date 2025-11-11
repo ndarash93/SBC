@@ -191,6 +191,10 @@
 		(uuid "a58430e1-c490-4366-a963-5fed230fc1a3")
 	)
 	(no_connect
+		(at 179.07 48.26)
+		(uuid "b33012fa-5d82-4a9e-ad50-8b68f8368d6d")
+	)
+	(no_connect
 		(at 266.7 166.37)
 		(uuid "b76362e1-f755-440e-a128-8557139929ae")
 	)
@@ -437,16 +441,6 @@
 			(type default)
 		)
 		(uuid "2f2f00c8-d7d1-4e17-aef0-113763959e86")
-	)
-	(wire
-		(pts
-			(xy 147.32 83.82) (xy 179.07 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34189b9c-adc4-45f2-acf4-ac9f02efff3f")
 	)
 	(wire
 		(pts
@@ -2733,16 +2727,6 @@
 				(justify left)
 			)
 		)
-		(pin "ETH_PHY_INTn" input
-			(at 179.07 83.82 180)
-			(uuid "054abf1d-8b59-41e3-9fa2-d786935e48fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ETH_MDIO" bidirectional
 			(at 179.07 81.28 180)
 			(uuid "dea23c79-9870-4951-82db-4c8c52417802")
@@ -3342,16 +3326,6 @@
 		(pin "REF_CLK" output
 			(at 147.32 55.88 0)
 			(uuid "cecec39f-7b02-409a-a81e-fa2c0dd0c90e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "INTn" output
-			(at 147.32 83.82 0)
-			(uuid "914bbc5c-c54c-4fc1-ac75-28df3f2a2dd2")
 			(effects
 				(font
 					(size 1.27 1.27)

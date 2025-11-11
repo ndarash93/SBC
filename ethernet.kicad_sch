@@ -3498,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 101.6) (xy 86.36 101.6)
+			(xy 72.39 101.6) (xy 86.36 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4299,17 +4299,6 @@
 			(justify right)
 		)
 		(uuid "70599be6-5e58-4938-b8a2-f9ef986a5df8")
-	)
-	(hierarchical_label "INTn"
-		(shape output)
-		(at 66.04 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "729c9ec9-e062-448f-8b10-f0c10d006e05")
 	)
 	(hierarchical_label "TXD1"
 		(shape input)
