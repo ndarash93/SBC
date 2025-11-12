@@ -30088,7 +30088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 742.95 208.28 0)
 			(effects
 				(font
@@ -33286,7 +33286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 740.41 203.2 0)
 			(effects
 				(font

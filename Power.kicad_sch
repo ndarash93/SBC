@@ -6224,7 +6224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 80.01 134.62 0)
 			(effects
 				(font
@@ -6357,7 +6357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 172.72 113.03 0)
 			(effects
 				(font
@@ -6701,7 +6701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 151.13 140.97 0)
 			(effects
 				(font
@@ -7188,7 +7188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 38.1 156.21 0)
 			(effects
 				(font
@@ -7322,7 +7322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 198.12 113.03 0)
 			(effects
 				(font
@@ -7861,7 +7861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 222.25 140.97 0)
 			(effects
 				(font
@@ -8170,7 +8170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 267.97 140.97 0)
 			(effects
 				(font
@@ -9422,7 +9422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 100.33 173.99 0)
 			(effects
 				(font
@@ -11766,7 +11766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 100.33 156.21 0)
 			(effects
 				(font
@@ -13685,7 +13685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 38.1 175.26 0)
 			(effects
 				(font
@@ -14290,7 +14290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 267.97 113.03 0)
 			(effects
 				(font
@@ -15295,7 +15295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 151.13 113.03 0)
 			(effects
 				(font
@@ -15847,7 +15847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 222.25 113.03 0)
 			(effects
 				(font
@@ -16240,7 +16240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 172.72 140.97 0)
 			(effects
 				(font
@@ -16905,7 +16905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 245.11 113.03 0)
 			(effects
 				(font
@@ -17183,7 +17183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.5mm"
 			(at 245.11 140.97 0)
 			(effects
 				(font
