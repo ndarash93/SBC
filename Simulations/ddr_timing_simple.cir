@@ -1,0 +1,41 @@
+* DDR3 signal timing comparison
+* Driver -> (optional Rseries) -> Transmission line -> DDR3 input
+
+*** PARAMETERS ***
+.param VDDQ = 1.2
+.param Z0 = 50
+.param TD = 300p       ; 300 ps delay for ~2 inch trace
+.param RS = 33
+
+*** DRIVER ***
+* Pulse: Vinitial Von Trise Tfall Pulsewidth Period
+Vdrv drv 0 PULSE(0 {VDDQ} 0 100p 100p 2n 4n)
+
+* Output buffer (finite drive capability)
+Rdriver drv nodeA 10     ; 10 Ω output impedance
+
+*** LINE A: NO SERIES RESISTOR ***
+* 50Ω transmission line, 300 ps delay
+TlineA nodeA nodeLoadA 0 0 Z0={Z0} TD={TD}
+
+*** LOAD A: DDR3 input (simplified) ***
+RloadA nodeLoadA Vref 50
+Vref Vref 0 DC {VDDQ/2}
+
+*** LINE B: WITH 33Ω SERIES RESISTOR ***
+Rseries nodeA nodeB {RS}
+TlineB nodeB nodeLoadB 0 0 Z0={Z0} TD={TD}
+
+*** LOAD B: DDR3 input ***
+RloadB nodeLoadB Vref 50
+
+*** PROBES ***
+.tran 1p 5n
+
+.control
+run
+plot nodeLoadA nodeLoadB
+.endc
+
+.end
+

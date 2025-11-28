@@ -1,0 +1,69 @@
+* DDR3 single-ended timing comparison with series resistor sweep
+* 45 mm trace, ODT 120 ohm, 1066 MT/s (period ~938ps)
+* Sweep RS = 0,10,20,30,33,40,50,60 ohm
+
+***************************************************
+* Parameters
+***************************************************
+.param VDDQ = 1.2
+.param Z0   = 50
+.param length_mm = 45
+* Approx propagation: 100 ps / inch (change if you know your PCB velocity)
+.param ps_per_inch = 100p
+.param TD = { length_mm/25.4 * ps_per_inch }   ; transmission line delay
+.param RS = 22        ; default, will be stepped
+.param Rdriver = 20   ; simplified driver output resistance (extract from IBIS for accuracy)
+.param rise = 100p
+.param fall = 100p
+.param period = 938p
+.param pw = {period/2} ; 50% duty toggle
+
+***************************************************
+* Stimulus: toggling at bit rate (single-ended data)
+***************************************************
+Vdrv drv 0 PULSE(0 {VDDQ} 0 {rise} {fall} {pw} {period})
+
+* Simplified IBIS-derived output: Thevenin (series Rdriver) + clamp diodes
+Rout drv nodeA {Rdriver}
+* clamp diodes (simple diode to rails) - adjust models to match IBIS clamps if available
+Dpu nodeA VDDQ Dclamp
+Dpd nodeA 0 Dclamp
+
+.model Dclamp D(Is=1e-9 N=1.5 Rs=0.1 Cjo=1p)
+
+***************************************************
+* Line A: NO series resistor (direct to line)
+***************************************************
+* lossless transmission line element (Z0, delay TD)
+TLA nodeA nodeLoadA 0 0 Z0={Z0} TD={TD}
+* ODT termination on line A (to Vref)
+Vref Vref 0 DC {VDDQ/2}
+RodtA nodeLoadA Vref 120
+
+***************************************************
+* Line B: with series resistor RS
+***************************************************
+Rseries nodeA nodeB {RS}
+TLB nodeB nodeLoadB 0 0 Z0={Z0} TD={TD}
+RodtB nodeLoadB Vref 120
+
+***************************************************
+* Probes and measurements
+***************************************************
+.tran 10p 5n uic
+* Sweep RS across a set of values
+* .step param RS list 0 10 20 30 33 40 50 60
+
+* Optional: measure 50% crossing times for load nodes (visual inspection is often easiest)
+* Note: different SPICE variants have slightly different .measure syntax. For a visual compare,
+* plot nodeLoadA and nodeLoadB for each RS value (NGSpice will overlay sweeps).
+.control
+  run
+  * plot the two load nodes; NGSpice will overlay traces for each RS step
+  plot v(nodeLoadA) v(nodeLoadB) v(drv)
+  * You can also print the final value or probe particular waveforms:
+  * print v(nodeLoadA) v(nodeLoadB)
+.endc
+
+.end
+
