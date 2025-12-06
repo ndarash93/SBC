@@ -17145,6 +17145,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 228.6) (xy 356.87 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e9c2be-4796-4e77-ade2-4421d9633504")
+	)
+	(wire
+		(pts
 			(xy 233.68 20.32) (xy 233.68 33.02)
 		)
 		(stroke
@@ -19593,7 +19603,7 @@
 		)
 		(uuid "0cacd1d3-d022-46c2-b3e5-45f03a78e57b")
 	)
-	(label "PA4"
+	(label "PA0"
 		(at 322.58 226.06 0)
 		(effects
 			(font
@@ -20323,6 +20333,16 @@
 		)
 		(uuid "40a43603-dd88-4d38-b330-d7d4d25ea144")
 	)
+	(label "PA4"
+		(at 356.87 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41939c9d-d7f9-4813-a264-5f63bd14a0c3")
+	)
 	(label "PB5"
 		(at 293.37 96.52 180)
 		(effects
@@ -20422,16 +20442,6 @@
 			(justify right bottom)
 		)
 		(uuid "488e3a27-224f-4c08-805f-4e9c78e1b19a")
-	)
-	(label "PA6"
-		(at 322.58 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48d55d38-d39d-4814-81da-dc865cb50981")
 	)
 	(label "VDD_CORE"
 		(at 154.94 20.32 270)
@@ -20632,16 +20642,6 @@
 			(justify left bottom)
 		)
 		(uuid "594c3543-cbdc-47f0-b39d-0d9ffb855296")
-	)
-	(label "PA5"
-		(at 322.58 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ac60c51-702b-47d8-a97f-1ad6120b6707")
 	)
 	(label "PC7"
 		(at 293.37 144.78 180)
@@ -22073,7 +22073,7 @@
 		)
 		(uuid "ccaab51b-ea4b-4282-8771-9153015d4c67")
 	)
-	(label "PA0"
+	(label "PA5"
 		(at 322.58 220.98 0)
 		(effects
 			(font
