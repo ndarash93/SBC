@@ -18,27 +18,33 @@
 .param period = 938p
 .param pw = {period/2} ; 50% duty toggle
 
+.model Dclamp D(Is=1e-9 N=1.5 Rs=0.1 Cjo=1p)
+
 ***************************************************
 * Stimulus: toggling at bit rate (single-ended data)
 ***************************************************
 Vdrv drv 0 PULSE(0 {VDDQ} 0 {rise} {fall} {pw} {period})
 
 * Simplified IBIS-derived output: Thevenin (series Rdriver) + clamp diodes
-Rout drv nodeA {Rdriver}
+RoutBA0 drv BA0 {Rdriver}
 * clamp diodes (simple diode to rails) - adjust models to match IBIS clamps if available
-Dpu nodeA VDDQ Dclamp
-Dpd nodeA 0 Dclamp
+DpuBA0 BA0 VDDQ Dclamp
+DpdBA0 0 BA0 Dclamp
 
-.model Dclamp D(Is=1e-9 N=1.5 Rs=0.1 Cjo=1p)
+* Simplified IBIS-derived output: Thevenin (series Rdriver) + clamp diodes
+RoutA0 drv DDR_A0 {Rdriver}
+* clamp diodes (simple diode to rails) - adjust models to match IBIS clamps if available
+DpuA0 DDR_A0 VDDQ Dclamp
+DpdA0 0 DDR_A0 Dclamp
 
 ***************************************************
 * Line A: NO series resistor (direct to line)
 ***************************************************
 * lossless transmission line element (Z0, delay TD)
-TLA nodeA nodeLoadA 0 0 Z0={Z0} TD={TD}
+TL_BA0 BA0 BA0_1 0 0 Z0={Z0} TD={TD}
 * ODT termination on line A (to Vref)
 Vref Vref 0 DC {VDDQ/2}
-RodtA nodeLoadA Vref 120
+RodtBA0 BA0_1 Vref 120
 
 ***************************************************
 * Line B: with series resistor RS
