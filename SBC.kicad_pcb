@@ -96991,14 +96991,6 @@
 		(uuid "16d97acf-b9b3-4f05-826b-f83fbfb0c3f5")
 	)
 	(segment
-		(start 85.179145 70.446799)
-		(end 85.843664 70.446799)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "1736ff0f-54ee-402c-a4fc-3bc1505836a0")
-	)
-	(segment
 		(start 87.4532 68.9468)
 		(end 87.65 68.9468)
 		(width 0.127)
@@ -97007,20 +96999,20 @@
 		(uuid "18e39ca7-f910-4dda-b3ae-b948da1a2d57")
 	)
 	(segment
-		(start 84.946799 70.446799)
-		(end 85.056734 70.446799)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "200e5f33-b6bd-4dc4-aea4-b4ae5cf2df4a")
-	)
-	(segment
 		(start 90.2292 67.324309)
 		(end 90.2292 68.9468)
 		(width 0.127)
 		(layer "F.Cu")
 		(net 114)
 		(uuid "2327c085-0b77-44c9-ae82-4cea64cccb70")
+	)
+	(segment
+		(start 85.87 70.446799)
+		(end 85.9 70.446799)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "2ab0e606-9ada-4126-b385-f80e6ca25a13")
 	)
 	(segment
 		(start 90.422 71.168491)
@@ -97037,6 +97029,14 @@
 		(layer "F.Cu")
 		(net 114)
 		(uuid "3ac1f7c5-d051-46cf-b302-d8f2623fe9d8")
+	)
+	(segment
+		(start 85.192844 70.303955)
+		(end 85.46 70.303955)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "3cbf58f4-5ec8-4b9a-a409-e7b0c07164a9")
 	)
 	(segment
 		(start 94.7728 70.975676)
@@ -97087,6 +97087,14 @@
 		(uuid "54d5e11d-165f-4101-9218-8c48f3b93d53")
 	)
 	(segment
+		(start 84.946799 70.446799)
+		(end 85.05 70.446799)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "5a1835c6-6d55-4d5a-b935-85ea8363eaf3")
+	)
+	(segment
 		(start 87.291801 69.108199)
 		(end 87.4532 68.9468)
 		(width 0.127)
@@ -97101,14 +97109,6 @@
 		(layer "F.Cu")
 		(net 114)
 		(uuid "6aa4331a-cea8-4335-b9a3-73e51345871a")
-	)
-	(segment
-		(start 84.75 70.25)
-		(end 84.946799 70.446799)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "6cb0b7db-a5f6-4744-8b1e-807fedd89107")
 	)
 	(segment
 		(start 97.7064 69.15)
@@ -97143,20 +97143,20 @@
 		(uuid "720e41e9-508c-42c6-a9f7-d9cc97740eb9")
 	)
 	(segment
-		(start 85.953201 70.446799)
-		(end 86.289193 70.110807)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "72f0f195-8485-4ea0-8d2d-00f6b4d187d4")
-	)
-	(segment
 		(start 94.1892 69.546)
 		(end 94.1892 70.975676)
 		(width 0.127)
 		(layer "F.Cu")
 		(net 114)
 		(uuid "769f2faf-ea0b-48be-bf7c-2b0002e640a8")
+	)
+	(segment
+		(start 85.9 70.446799)
+		(end 85.953201 70.446799)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "85b9a8bd-05ba-4111-b83a-0895a073d202")
 	)
 	(segment
 		(start 97.5032 68.9468)
@@ -97199,6 +97199,14 @@
 		(uuid "91034221-0623-4600-8e0d-c8cbec8fcd4d")
 	)
 	(segment
+		(start 84.75 70.25)
+		(end 84.946799 70.446799)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "98cdc445-80ec-46e2-8432-14de9b4ce45f")
+	)
+	(segment
 		(start 91.412 66.725109)
 		(end 91.61 66.725109)
 		(width 0.127)
@@ -97215,14 +97223,6 @@
 		(uuid "9f6af454-1b91-4148-aca7-25d74941a58a")
 	)
 	(segment
-		(start 85.843664 70.446799)
-		(end 85.953201 70.446799)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "b56d3d09-db79-4ab2-b297-4904941e99ab")
-	)
-	(segment
 		(start 88.8328 68.9468)
 		(end 88.8328 67.324309)
 		(width 0.127)
@@ -97237,14 +97237,6 @@
 		(layer "F.Cu")
 		(net 114)
 		(uuid "ba8906dd-36d7-4f5b-9e3c-8c85e3e96acc")
-	)
-	(segment
-		(start 85.056734 70.446799)
-		(end 85.179145 70.446799)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "bf7d4cb9-b041-4b22-afe9-4767680c6665")
 	)
 	(segment
 		(start 86.289193 70.110807)
@@ -97279,6 +97271,14 @@
 		(uuid "ce79a949-d176-472a-8df3-8f083d7bf7a5")
 	)
 	(segment
+		(start 85.953201 70.446799)
+		(end 86.289193 70.110807)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "cf9bf1c5-06d7-4ffd-b082-0d244a2dfc47")
+	)
+	(segment
 		(start 88.8328 70.975691)
 		(end 88.8328 69.546)
 		(width 0.127)
@@ -97293,6 +97293,14 @@
 		(layer "F.Cu")
 		(net 114)
 		(uuid "ec1f980d-3ab1-48dc-bbaa-b66543fcd772")
+	)
+	(segment
+		(start 85.602844 70.446799)
+		(end 85.87 70.446799)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "ec8fb3d1-0366-49aa-ba2a-53bc96fcd946")
 	)
 	(segment
 		(start 88.442 71.168491)
@@ -97317,6 +97325,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 114)
 		(uuid "07bf8540-7a7d-4988-86d0-f345352a2f8c")
+	)
+	(arc
+		(start 85.46 70.303955)
+		(mid 85.510503 70.324874)
+		(end 85.531422 70.375377)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "04aa29e6-d8b9-462f-a947-9fdd2893e507")
 	)
 	(arc
 		(start 92.2092 70.975691)
@@ -97364,6 +97381,15 @@
 		(uuid "79d78a67-c3a7-4c6f-8db9-81df2e9e9d13")
 	)
 	(arc
+		(start 85.05 70.446799)
+		(mid 85.100503 70.42588)
+		(end 85.121422 70.375377)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "88f27f71-d386-42eb-afd5-224ae705a1ef")
+	)
+	(arc
 		(start 92.7928 67.324293)
 		(mid 92.968302 66.900595)
 		(end 93.392 66.725093)
@@ -97371,6 +97397,15 @@
 		(layer "F.Cu")
 		(net 114)
 		(uuid "94b754ec-3eef-4214-b5c0-8e7ef88d0e2c")
+	)
+	(arc
+		(start 85.531422 70.375377)
+		(mid 85.552341 70.42588)
+		(end 85.602844 70.446799)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "9f7d51ae-4b44-499f-bda2-e2aad5f6cb3d")
 	)
 	(arc
 		(start 90.2292 70.975691)
@@ -97452,6 +97487,15 @@
 		(layer "F.Cu")
 		(net 114)
 		(uuid "ea953d74-896e-4898-b061-c51aaf7f6408")
+	)
+	(arc
+		(start 85.121422 70.375377)
+		(mid 85.142341 70.324874)
+		(end 85.192844 70.303955)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 114)
+		(uuid "f1044334-80aa-49ee-948e-89518a610ec8")
 	)
 	(arc
 		(start 91.61 66.725109)
@@ -179477,49 +179521,6 @@
 		)
 	)
 	(generated
-		(uuid "4a5ddbaa-7de1-4fea-b7b5-ffac450ce164")
-		(type tuning_pattern)
-		(name "Tuning Pattern")
-		(layer "F.Cu")
-		(base_line
-			(pts
-				(xy 85.843664 70.446799)
-			)
-		)
-		(base_line_coupled
-			(pts
-				(xy 85.843664 70.853201) (xy 85.126683 70.853201)
-			)
-		)
-		(corner_radius_percent 80)
-		(end
-			(xy 85.126683 70.446799)
-		)
-		(initial_side "right")
-		(last_diff_pair_gap 0.18)
-		(last_netname "/MPU/DDR_CLKN")
-		(last_status "tuned")
-		(last_track_width 0.127)
-		(last_tuning "-0.1630 mm (tuned)")
-		(max_amplitude 1)
-		(min_amplitude 0.2)
-		(min_spacing 0.6)
-		(origin
-			(xy 85.843664 70.446799)
-		)
-		(override_custom_rules no)
-		(rounded yes)
-		(single_sided no)
-		(target_length 1000000)
-		(target_length_max 1000000)
-		(target_length_min 0)
-		(target_skew 0)
-		(target_skew_max 1)
-		(target_skew_min -1)
-		(tuning_mode "diff_pair_skew")
-		(members "b56d3d09-db79-4ab2-b297-4904941e99ab")
-	)
-	(generated
 		(uuid "4c3d1876-b5bf-428b-9b65-f937b96c6213")
 		(type tuning_pattern)
 		(name "Tuning Pattern")
@@ -180924,49 +180925,6 @@
 		)
 	)
 	(generated
-		(uuid "c99b392a-d05d-40c8-b4bf-7262c5118047")
-		(type tuning_pattern)
-		(name "Tuning Pattern")
-		(layer "F.Cu")
-		(base_line
-			(pts
-				(xy 85.179145 70.446799) (xy 85.843664 70.446799)
-			)
-		)
-		(base_line_coupled
-			(pts
-				(xy 85.179145 70.853201) (xy 85.184974 70.853201)
-			)
-		)
-		(corner_radius_percent 80)
-		(end
-			(xy 85.843664 70.446799)
-		)
-		(initial_side "right")
-		(last_diff_pair_gap 0.18)
-		(last_netname "/MPU/DDR_CLKN")
-		(last_status "tuned")
-		(last_track_width 0.127)
-		(last_tuning "-0.1630 mm (tuned)")
-		(max_amplitude 1)
-		(min_amplitude 0.2)
-		(min_spacing 0.6)
-		(origin
-			(xy 85.179145 70.446799)
-		)
-		(override_custom_rules no)
-		(rounded yes)
-		(single_sided no)
-		(target_length 1000000)
-		(target_length_max 1000000)
-		(target_length_min 0)
-		(target_skew 0)
-		(target_skew_max 1)
-		(target_skew_min -1)
-		(tuning_mode "diff_pair_skew")
-		(members "1736ff0f-54ee-402c-a4fc-3bc1505836a0")
-	)
-	(generated
 		(uuid "cf24da73-3482-4f24-bd7a-6ca7690cdcab")
 		(type tuning_pattern)
 		(name "Tuning Pattern")
@@ -181007,6 +180965,53 @@
 			"587065fa-5e01-4cd3-8043-595ddd03ec5c" "6d0ffc2e-d40b-44d1-81d9-aa7fe6b0811c"
 			"73031372-f876-4a37-b5c3-5a23aaeb44fd" "894bad4f-aa69-4728-a45d-2d058a6ff0c8"
 			"9cc035ba-0741-4a3a-8f47-bf8582587052"
+		)
+	)
+	(generated
+		(uuid "d11e6267-0f4a-4c2f-858b-05ef1320f53d")
+		(type tuning_pattern)
+		(name "Tuning Pattern")
+		(layer "F.Cu")
+		(base_line
+			(pts
+				(xy 85.05 70.446799) (xy 85.9 70.446799)
+			)
+		)
+		(base_line_coupled
+			(pts
+				(xy 85.039647 70.853201) (xy 85.042097 70.853201)
+			)
+		)
+		(corner_radius_percent 80)
+		(end
+			(xy 85.9 70.446799)
+		)
+		(initial_side "left")
+		(last_diff_pair_gap 0.18)
+		(last_netname "/MPU/DDR_CLKN")
+		(last_status "tuned")
+		(last_track_width 0.127)
+		(last_tuning "-0.0000 mm (tuned)")
+		(max_amplitude 0.26)
+		(min_amplitude 0.1)
+		(min_spacing 0.41)
+		(origin
+			(xy 85.05 70.446799)
+		)
+		(override_custom_rules no)
+		(rounded yes)
+		(single_sided yes)
+		(target_length 45)
+		(target_length_max 46)
+		(target_length_min 44)
+		(target_skew 0)
+		(target_skew_max 1)
+		(target_skew_min -1)
+		(tuning_mode "diff_pair_skew")
+		(members "04aa29e6-d8b9-462f-a947-9fdd2893e507" "2ab0e606-9ada-4126-b385-f80e6ca25a13"
+			"3cbf58f4-5ec8-4b9a-a409-e7b0c07164a9" "88f27f71-d386-42eb-afd5-224ae705a1ef"
+			"9f7d51ae-4b44-499f-bda2-e2aad5f6cb3d" "ec8fb3d1-0366-49aa-ba2a-53bc96fcd946"
+			"f1044334-80aa-49ee-948e-89518a610ec8"
 		)
 	)
 	(generated
@@ -181147,49 +181152,6 @@
 			"c4130617-3e72-49ec-b835-210f7125ab3e" "ccf0c783-df23-4a6b-8390-fc41cd171b80"
 			"ffda954c-3cd0-42b0-be2e-d3d48728ac4c"
 		)
-	)
-	(generated
-		(uuid "db4a2e71-c215-4404-b3e3-7cb118a0f187")
-		(type tuning_pattern)
-		(name "Tuning Pattern")
-		(layer "F.Cu")
-		(base_line
-			(pts
-				(xy 85.056734 70.446799) (xy 85.179145 70.446799)
-			)
-		)
-		(base_line_coupled
-			(pts
-				(xy 85.056734 70.853201) (xy 85.068392 70.853201)
-			)
-		)
-		(corner_radius_percent 80)
-		(end
-			(xy 85.179145 70.446799)
-		)
-		(initial_side "right")
-		(last_diff_pair_gap 0.18)
-		(last_netname "/MPU/DDR_CLKN")
-		(last_status "tuned")
-		(last_track_width 0.127)
-		(last_tuning "-0.1630 mm (tuned)")
-		(max_amplitude 1)
-		(min_amplitude 0.2)
-		(min_spacing 0.6)
-		(origin
-			(xy 85.056734 70.446799)
-		)
-		(override_custom_rules no)
-		(rounded yes)
-		(single_sided no)
-		(target_length 1000000)
-		(target_length_max 1000000)
-		(target_length_min 0)
-		(target_skew 0)
-		(target_skew_max 1)
-		(target_skew_min -1)
-		(tuning_mode "diff_pair_skew")
-		(members "bf7d4cb9-b041-4b22-afe9-4767680c6665")
 	)
 	(generated
 		(uuid "e0f856d0-6e2c-417a-a577-8a8f0a17640d")
